@@ -55,3 +55,9 @@ Full documentation for the Setlist.FM API is available here: [https://api.setlis
 
 This wrapper also features documentation comments ported from the documentation provided in the link above, so all methods and properties are annotated with helpful, descriptive sentences that describe their purpose and usage.
 
+### Additional Features
+
+There are currently no additional features, but there are plans to add the following enhancements to this framework, to make it more of a super-wrapper:
+- If a page number is not provided, return all pages of results
+- Add methods that report artist statistics just like the website does
+
