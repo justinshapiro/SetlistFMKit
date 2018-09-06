@@ -1,0 +1,19 @@
+{
+    "id": "6bd63666",
+    "name": "Ogden Theatre",
+    "city": {
+        "id": "5419384",
+        "name": "Denver",
+        "state": "Colorado",
+        "stateCode": "CO",
+        "coords": {
+            "lat": 39.7391536,
+            "long": -104.9847034
+        },
+        "country": {
+            "code": "US",
+            "name": "United States"
+        }
+    },
+    "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+}

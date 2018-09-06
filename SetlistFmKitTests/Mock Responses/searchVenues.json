@@ -1,0 +1,141 @@
+{
+    "type": "venues",
+    "itemsPerPage": 30,
+    "page": 1,
+    "total": 7,
+    "venue": [
+        {
+            "id": "1bd42dd4",
+            "name": "The Gunz Show Studio at Madison Square Garden",
+            "city": {
+                "id": "5128581",
+                "name": "New York",
+                "state": "New York",
+                "stateCode": "NY",
+                "coords": {
+                    "lat": 40.7142691,
+                    "long": -74.0059729
+                },
+                "country": {
+                    "code": "US",
+                    "name": "United States"
+                }
+            },
+            "url": "https://www.setlist.fm/venue/the-gunz-show-studio-at-madison-square-garden-new-york-ny-usa-1bd42dd4.html"
+        },
+        {
+            "id": "7bd62a20",
+            "name": "The Theater at Madison Square Garden",
+            "city": {
+                "id": "5128581",
+                "name": "New York",
+                "state": "New York",
+                "stateCode": "NY",
+                "coords": {
+                    "lat": 40.7142691,
+                    "long": -74.0059729
+                },
+                "country": {
+                    "code": "US",
+                    "name": "United States"
+                }
+            },
+            "url": "https://www.setlist.fm/venue/the-theater-at-madison-square-garden-new-york-ny-usa-7bd62a20.html"
+        },
+        {
+            "id": "23d2f42b",
+            "name": "The Paramount at Madison Square Garden",
+            "city": {
+                "id": "5128581",
+                "name": "New York",
+                "state": "New York",
+                "stateCode": "NY",
+                "coords": {
+                    "lat": 40.7142691,
+                    "long": -74.0059729
+                },
+                "country": {
+                    "code": "US",
+                    "name": "United States"
+                }
+            },
+            "url": "https://www.setlist.fm/venue/the-paramount-at-madison-square-garden-new-york-ny-usa-23d2f42b.html"
+        },
+        {
+            "id": "5bd74748",
+            "name": "Madison Square Garden",
+            "city": {
+                "id": "5308655",
+                "name": "Phoenix",
+                "state": "Arizona",
+                "stateCode": "AZ",
+                "coords": {
+                    "lat": 33.4483771,
+                    "long": -112.0740373
+                },
+                "country": {
+                    "code": "US",
+                    "name": "United States"
+                }
+            },
+            "url": "https://www.setlist.fm/venue/madison-square-garden-phoenix-az-usa-5bd74748.html"
+        },
+        {
+            "id": "73d63a95",
+            "name": "WaMu Theater At Madison Square Garden",
+            "city": {
+                "id": "5128581",
+                "name": "New York",
+                "state": "New York",
+                "stateCode": "NY",
+                "coords": {
+                    "lat": 40.7142691,
+                    "long": -74.0059729
+                },
+                "country": {
+                    "code": "US",
+                    "name": "United States"
+                }
+            },
+            "url": "https://www.setlist.fm/venue/wamu-theater-at-madison-square-garden-new-york-ny-usa-73d63a95.html"
+        },
+        {
+            "id": "23d63cc7",
+            "name": "Madison Square Garden",
+            "city": {
+                "id": "5128581",
+                "name": "New York",
+                "state": "New York",
+                "stateCode": "NY",
+                "coords": {
+                    "lat": 40.7142691,
+                    "long": -74.0059729
+                },
+                "country": {
+                    "code": "US",
+                    "name": "United States"
+                }
+            },
+            "url": "https://www.setlist.fm/venue/madison-square-garden-new-york-ny-usa-23d63cc7.html"
+        },
+        {
+            "id": "33d228a1",
+            "name": "Hulu Theater at Madison Square Garden",
+            "city": {
+                "id": "5128581",
+                "name": "New York",
+                "state": "New York",
+                "stateCode": "NY",
+                "coords": {
+                    "lat": 40.7142691,
+                    "long": -74.0059729
+                },
+                "country": {
+                    "code": "US",
+                    "name": "United States"
+                }
+            },
+            "url": "https://www.setlist.fm/venue/hulu-theater-at-madison-square-garden-new-york-ny-usa-33d228a1.html"
+        }
+    ]
+}

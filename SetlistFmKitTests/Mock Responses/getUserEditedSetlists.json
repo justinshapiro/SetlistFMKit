@@ -1,0 +1,977 @@
+{
+    "type": "setlists",
+    "itemsPerPage": 20,
+    "page": 1,
+    "total": 697,
+    "setlist": [
+        {
+            "id": "4beb5b0e",
+            "versionId": "4379cf17",
+            "eventDate": "03-08-2018",
+            "lastUpdated": "2018-08-04T07:34:28.000+0000",
+            "artist": {
+                "mbid": "a6a4960c-dafe-43ea-b431-7d2dddd8cc1e",
+                "name": "Alison Wonderland",
+                "sortName": "Alison Wonderland",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/alison-wonderland-3da657b.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/alison-wonderland/2018/ogden-theatre-denver-co-4beb5b0e.html"
+        },
+        {
+            "id": "53eb5b0d",
+            "versionId": "4b79cf16",
+            "eventDate": "03-08-2018",
+            "lastUpdated": "2018-08-04T07:35:25.000+0000",
+            "artist": {
+                "mbid": "2f6a6eec-a179-4e6e-a6a3-a0d125c71c8e",
+                "name": "Chet Porter",
+                "sortName": "Porter, Chet",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/chet-porter-63c2da67.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/chet-porter/2018/ogden-theatre-denver-co-53eb5b0d.html"
+        },
+        {
+            "id": "63eb0abb",
+            "versionId": "63796e2f",
+            "eventDate": "29-07-2018",
+            "lastUpdated": "2018-08-08T02:19:26.000+0000",
+            "artist": {
+                "mbid": "41945420-84ad-48ef-8fe4-933600e8e2f3",
+                "name": "Junun",
+                "sortName": "Junun",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/junun-33c82c21.html"
+            },
+            "venue": {
+                "id": "3bd61414",
+                "name": "TD Garden",
+                "city": {
+                    "id": "4930956",
+                    "name": "Boston",
+                    "state": "Massachusetts",
+                    "stateCode": "MA",
+                    "coords": {
+                        "lat": 42.3584308,
+                        "long": -71.0597732
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/td-garden-boston-ma-usa-3bd61414.html"
+            },
+            "tour": {
+                "name": "Junun"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": ""
+                            },
+                            {
+                                "name": "Modeh"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "info": "Setlist incomplete: Lineup: Shye Ben-Tzur, Jonny Greenwood and The Rajasthan Express; Opening act for Radiohead.",
+            "url": "https://www.setlist.fm/setlist/junun/2018/td-garden-boston-ma-63eb0abb.html"
+        },
+        {
+            "id": "6be1fec6",
+            "versionId": "334a1c29",
+            "eventDate": "17-12-2017",
+            "lastUpdated": "2017-12-19T23:46:43.000+0000",
+            "artist": {
+                "mbid": "321093e4-3759-4c87-b0f8-1db9e5bcfec7",
+                "name": "Corbin",
+                "sortName": "Corbin",
+                "disambiguation": "Norwegian band",
+                "url": "https://www.setlist.fm/setlists/corbin-23d4fc5f.html"
+            },
+            "venue": {
+                "id": "43d57f77",
+                "name": "Barbara Jordan Post Office",
+                "city": {
+                    "id": "4699066",
+                    "name": "Houston",
+                    "state": "Texas",
+                    "stateCode": "TX",
+                    "coords": {
+                        "lat": 29.7632836,
+                        "long": -95.3632715
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/barbara-jordan-post-office-houston-tx-usa-43d57f77.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/corbin/2017/barbara-jordan-post-office-houston-tx-6be1fec6.html"
+        },
+        {
+            "id": "4be19f3a",
+            "versionId": "5b7f17c0",
+            "eventDate": "17-12-2017",
+            "lastUpdated": "2018-05-31T00:05:12.000+0000",
+            "artist": {
+                "mbid": "8ed2e0b3-aa4c-4e13-bec3-dc7393ed4d6b",
+                "name": "Thom Yorke",
+                "sortName": "Yorke, Thom",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/thom-yorke-2bd69012.html"
+            },
+            "venue": {
+                "id": "43d57f77",
+                "name": "Barbara Jordan Post Office",
+                "city": {
+                    "id": "4699066",
+                    "name": "Houston",
+                    "state": "Texas",
+                    "stateCode": "TX",
+                    "coords": {
+                        "lat": 29.7632836,
+                        "long": -95.3632715
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/barbara-jordan-post-office-houston-tx-usa-43d57f77.html"
+            },
+            "tour": {
+                "name": "Tomorrow's Modern Boxes"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Interference"
+                            },
+                            {
+                                "name": "A Brain in a Bottle"
+                            },
+                            {
+                                "name": "Impossible Knots"
+                            },
+                            {
+                                "name": "I Am a Very Rude Person"
+                            },
+                            {
+                                "name": "Two Feet Off the Ground"
+                            },
+                            {
+                                "name": "Amok",
+                                "cover": {
+                                    "mbid": "9e299bee-d7e2-49f3-8cd7-d6b28ab204d1",
+                                    "tmid": 1418748,
+                                    "name": "Atoms for Peace",
+                                    "sortName": "Atoms for Peace",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/atoms-for-peace-bd59596.html"
+                                }
+                            },
+                            {
+                                "name": "Not the News"
+                            },
+                            {
+                                "name": "Truth Ray"
+                            },
+                            {
+                                "name": "Traffic"
+                            },
+                            {
+                                "name": "Twist",
+                                "info": "with 'Saturdays' ending"
+                            },
+                            {
+                                "name": "Pink Section"
+                            },
+                            {
+                                "name": "Nose Grows Some"
+                            },
+                            {
+                                "name": "Cymbal Rush"
+                            },
+                            {
+                                "name": "Black Swan"
+                            },
+                            {
+                                "name": "Atoms for Peace"
+                            },
+                            {
+                                "name": "Default",
+                                "cover": {
+                                    "mbid": "9e299bee-d7e2-49f3-8cd7-d6b28ab204d1",
+                                    "tmid": 1418748,
+                                    "name": "Atoms for Peace",
+                                    "sortName": "Atoms for Peace",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/atoms-for-peace-bd59596.html"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/thom-yorke/2017/barbara-jordan-post-office-houston-tx-4be19f3a.html"
+        },
+        {
+            "id": "7be1fec0",
+            "versionId": "234a1c2b",
+            "eventDate": "17-12-2017",
+            "lastUpdated": "2017-12-19T23:45:31.000+0000",
+            "artist": {
+                "mbid": "da3719b8-229b-43ed-9a9f-8c156930ac7b",
+                "name": "Babyfather",
+                "sortName": "Babyfather",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/babyfather-53c2b751.html"
+            },
+            "venue": {
+                "id": "43d57f77",
+                "name": "Barbara Jordan Post Office",
+                "city": {
+                    "id": "4699066",
+                    "name": "Houston",
+                    "state": "Texas",
+                    "stateCode": "TX",
+                    "coords": {
+                        "lat": 29.7632836,
+                        "long": -95.3632715
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/barbara-jordan-post-office-houston-tx-usa-43d57f77.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/babyfather/2017/barbara-jordan-post-office-houston-tx-7be1fec0.html"
+        },
+        {
+            "id": "73e1fec5",
+            "versionId": "234a1c2f",
+            "eventDate": "25-11-2017",
+            "lastUpdated": "2017-12-19T23:49:24.000+0000",
+            "artist": {
+                "mbid": "23101701-cecf-4c9b-9b4c-d6a249eac118",
+                "name": "San Holo",
+                "sortName": "San Holo",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/san-holo-3c6554b.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/san-holo/2017/ogden-theatre-denver-co-73e1fec5.html"
+        },
+        {
+            "id": "6be1feba",
+            "versionId": "234a1c23",
+            "eventDate": "25-11-2017",
+            "lastUpdated": "2017-12-19T23:51:12.000+0000",
+            "artist": {
+                "mbid": "378d092c-e78d-498b-a303-e6b657ab5159",
+                "name": "DROELOE",
+                "sortName": "DROELOE",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/droeloe-23c12c47.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/droeloe/2017/ogden-theatre-denver-co-6be1feba.html"
+        },
+        {
+            "id": "63e1febb",
+            "versionId": "3b4a1c2c",
+            "eventDate": "25-11-2017",
+            "lastUpdated": "2017-12-19T23:50:43.000+0000",
+            "artist": {
+                "mbid": "e65635d6-9b54-46d9-9579-087238b818ab",
+                "name": "Robotaki",
+                "sortName": "Robotaki",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/robotaki-2bdeb0a6.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/robotaki/2017/ogden-theatre-denver-co-63e1febb.html"
+        },
+        {
+            "id": "7be1fec4",
+            "versionId": "2b4a1c2e",
+            "eventDate": "25-11-2017",
+            "lastUpdated": "2017-12-19T23:50:04.000+0000",
+            "artist": {
+                "mbid": "8ed6cf82-db90-46b4-bc95-6d33226f4c4b",
+                "name": "Just a Gent",
+                "sortName": "Just a Gent",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/just-a-gent-6bc616b6.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/just-a-gent/2017/ogden-theatre-denver-co-7be1fec4.html"
+        },
+        {
+            "id": "63e1febf",
+            "versionId": "2b4a1c26",
+            "eventDate": "18-11-2017",
+            "lastUpdated": "2017-12-19T23:54:28.000+0000",
+            "artist": {
+                "mbid": "4276ecf1-3e6c-4500-af15-9e8b9c73ad29",
+                "name": "Kittens",
+                "sortName": "Kittens",
+                "disambiguation": "Lauren Abedini",
+                "url": "https://www.setlist.fm/setlists/kittens-2bc44c6a.html"
+            },
+            "venue": {
+                "id": "63d7aeff",
+                "name": "1st Bank Center",
+                "city": {
+                    "id": "5415035",
+                    "name": "Broomfield",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.9205411,
+                        "long": -105.0866504
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/1st-bank-center-broomfield-co-usa-63d7aeff.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/kittens/2017/1st-bank-center-broomfield-co-63e1febf.html"
+        },
+        {
+            "id": "7be1feb8",
+            "versionId": "234a1c27",
+            "eventDate": "18-11-2017",
+            "lastUpdated": "2017-12-19T23:53:40.000+0000",
+            "artist": {
+                "mbid": "4e65e361-e974-4c9f-a368-970d69b1c93b",
+                "name": "Jai Wolf",
+                "sortName": "Jai Wolf",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/jai-wolf-4bd90b32.html"
+            },
+            "venue": {
+                "id": "63d7aeff",
+                "name": "1st Bank Center",
+                "city": {
+                    "id": "5415035",
+                    "name": "Broomfield",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.9205411,
+                        "long": -105.0866504
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/1st-bank-center-broomfield-co-usa-63d7aeff.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/jai-wolf/2017/1st-bank-center-broomfield-co-7be1feb8.html"
+        },
+        {
+            "id": "43e0cf73",
+            "versionId": "3b4a1c24",
+            "eventDate": "18-11-2017",
+            "lastUpdated": "2017-12-19T23:55:39.000+0000",
+            "artist": {
+                "mbid": "c046b587-5e98-4631-a5c0-e5d8e18d6b13",
+                "name": "RL Grime",
+                "sortName": "RL Grime",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/rl-grime-3bdcf814.html"
+            },
+            "venue": {
+                "id": "63d7aeff",
+                "name": "1st Bank Center",
+                "city": {
+                    "id": "5415035",
+                    "name": "Broomfield",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.9205411,
+                        "long": -105.0866504
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/1st-bank-center-broomfield-co-usa-63d7aeff.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/rl-grime/2017/1st-bank-center-broomfield-co-43e0cf73.html"
+        },
+        {
+            "id": "73e1feb9",
+            "versionId": "334a1c21",
+            "eventDate": "18-11-2017",
+            "lastUpdated": "2017-12-19T23:53:00.000+0000",
+            "artist": {
+                "mbid": "d39be4ed-121a-4987-af10-af37ce926613",
+                "name": "Graves",
+                "sortName": "Graves",
+                "disambiguation": "Music Producer & DJ",
+                "url": "https://www.setlist.fm/setlists/graves-2bc37cda.html"
+            },
+            "venue": {
+                "id": "63d7aeff",
+                "name": "1st Bank Center",
+                "city": {
+                    "id": "5415035",
+                    "name": "Broomfield",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.9205411,
+                        "long": -105.0866504
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/1st-bank-center-broomfield-co-usa-63d7aeff.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/graves/2017/1st-bank-center-broomfield-co-73e1feb9.html"
+        },
+        {
+            "id": "3be2b81c",
+            "versionId": "3345b8a1",
+            "eventDate": "19-08-2017",
+            "lastUpdated": "2017-08-20T18:59:52.000+0000",
+            "artist": {
+                "mbid": "29ed4a49-fb99-4a5c-8713-609cabe6f34a",
+                "tmid": 925802,
+                "name": "Kaskade",
+                "sortName": "Kaskade",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/kaskade-23d6b09f.html"
+            },
+            "venue": {
+                "id": "4bd52f1a",
+                "name": "Jewel Nightclub",
+                "city": {
+                    "id": "5506956",
+                    "name": "Las Vegas",
+                    "state": "Nevada",
+                    "stateCode": "NV",
+                    "coords": {
+                        "lat": 36.1749705,
+                        "long": -115.137223
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/jewel-nightclub-las-vegas-nv-usa-4bd52f1a.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/kaskade/2017/jewel-nightclub-las-vegas-nv-3be2b81c.html"
+        },
+        {
+            "id": "23e2b813",
+            "versionId": "2b45b8a6",
+            "eventDate": "19-08-2017",
+            "lastUpdated": "2017-08-20T19:00:42.000+0000",
+            "artist": {
+                "mbid": "74815309-880e-4cc4-a9e6-dcab58e49db3",
+                "name": "Mark Eteson",
+                "sortName": "Eteson, Mark",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/mark-eteson-33d4a0d9.html"
+            },
+            "venue": {
+                "id": "4bd52f1a",
+                "name": "Jewel Nightclub",
+                "city": {
+                    "id": "5506956",
+                    "name": "Las Vegas",
+                    "state": "Nevada",
+                    "stateCode": "NV",
+                    "coords": {
+                        "lat": 36.1749705,
+                        "long": -115.137223
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/jewel-nightclub-las-vegas-nv-usa-4bd52f1a.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/mark-eteson/2017/jewel-nightclub-las-vegas-nv-23e2b813.html"
+        },
+        {
+            "id": "73e50a81",
+            "versionId": "334424e9",
+            "eventDate": "12-08-2017",
+            "lastUpdated": "2017-08-14T18:13:09.000+0000",
+            "artist": {
+                "mbid": "0039c7ae-e1a7-4a7d-9b49-0cbc716821a6",
+                "tmid": 718349,
+                "name": "Death Cab for Cutie",
+                "sortName": "Death Cab for Cutie",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/death-cab-for-cutie-7bd6aea4.html"
+            },
+            "venue": {
+                "id": "bd2b18e",
+                "name": "Velorama in RiNo",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/velorama-in-rino-denver-co-usa-bd2b18e.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "I Will Possess Your Heart"
+                            },
+                            {
+                                "name": "The New Year"
+                            },
+                            {
+                                "name": "Crooked Teeth"
+                            },
+                            {
+                                "name": "Doors Unlocked and Open"
+                            },
+                            {
+                                "name": "The Ghosts of Beverly Drive"
+                            },
+                            {
+                                "name": "Photobooth"
+                            },
+                            {
+                                "name": "Black Sun"
+                            },
+                            {
+                                "name": "Title and Registration"
+                            },
+                            {
+                                "name": "No Sunlight"
+                            },
+                            {
+                                "name": "President of What?"
+                            },
+                            {
+                                "name": "Lightness"
+                            },
+                            {
+                                "name": "I Will Follow You Into the Dark"
+                            },
+                            {
+                                "name": "You Are a Tourist"
+                            },
+                            {
+                                "name": "Cath..."
+                            },
+                            {
+                                "name": "Soul Meets Body"
+                            },
+                            {
+                                "name": "Marching Bands of Manhattan"
+                            },
+                            {
+                                "name": "Transatlanticism"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/death-cab-for-cutie/2017/velorama-in-rino-denver-co-73e50a81.html"
+        },
+        {
+            "id": "4be5836a",
+            "versionId": "5b47df14",
+            "eventDate": "26-07-2017",
+            "lastUpdated": "2017-07-28T02:47:54.000+0000",
+            "artist": {
+                "mbid": "d2a76e1b-cecc-4500-b445-d55591821cd3",
+                "name": "Mura Masa",
+                "sortName": "Mura Masa",
+                "disambiguation": "UK electronic/hip hop producer",
+                "url": "https://www.setlist.fm/setlists/mura-masa-1bda9588.html"
+            },
+            "venue": {
+                "id": "53d63b21",
+                "name": "Gothic Theatre",
+                "city": {
+                    "id": "5421250",
+                    "name": "Englewood",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.6477653,
+                        "long": -104.9877597
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/gothic-theatre-englewood-co-usa-53d63b21.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Love$ick"
+                            },
+                            {
+                                "name": "Nuggets"
+                            },
+                            {
+                                "name": "Hell"
+                            },
+                            {
+                                "name": "Low"
+                            },
+                            {
+                                "name": "All Around the World"
+                            },
+                            {
+                                "name": "Lotus Eater"
+                            },
+                            {
+                                "name": "Are U There?"
+                            },
+                            {
+                                "name": "Messy Love"
+                            },
+                            {
+                                "name": "1 Night"
+                            },
+                            {
+                                "name": "Terrible Love"
+                            },
+                            {
+                                "name": "Second 2 None"
+                            },
+                            {
+                                "name": "What If I Go?"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "Firefly"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/mura-masa/2017/gothic-theatre-englewood-co-4be5836a.html"
+        },
+        {
+            "id": "13e5e179",
+            "versionId": "5347df09",
+            "eventDate": "26-07-2017",
+            "lastUpdated": "2017-07-28T02:49:40.000+0000",
+            "artist": {
+                "mbid": "46f69295-4afa-45a7-a6a0-54082f1c0d23",
+                "name": "KUČKA",
+                "sortName": "Kucka",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/kuka-5bc7eff4.html"
+            },
+            "venue": {
+                "id": "53d63b21",
+                "name": "Gothic Theatre",
+                "city": {
+                    "id": "5421250",
+                    "name": "Englewood",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.6477653,
+                        "long": -104.9877597
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/gothic-theatre-englewood-co-usa-53d63b21.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/kuka/2017/gothic-theatre-englewood-co-13e5e179.html"
+        },
+        {
+            "id": "3e5e17b",
+            "versionId": "5b47df1c",
+            "eventDate": "05-07-2017",
+            "lastUpdated": "2017-07-28T02:43:38.000+0000",
+            "artist": {
+                "mbid": "95512fa6-b5c4-4524-931d-4770787f300e",
+                "name": "Touch Sensitive",
+                "sortName": "Touch Sensitive",
+                "disambiguation": "Michael Di Francesco, star of Real Talk & Pizza Guy",
+                "url": "https://www.setlist.fm/setlists/touch-sensitive-63deb287.html"
+            },
+            "venue": {
+                "id": "7bd63674",
+                "name": "Red Rocks Amphitheatre",
+                "city": {
+                    "id": "5431916",
+                    "name": "Morrison",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.6535988,
+                        "long": -105.1910996
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/red-rocks-amphitheatre-morrison-co-usa-7bd63674.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/touch-sensitive/2017/red-rocks-amphitheatre-morrison-co-3e5e17b.html"
+        }
+    ]
+}

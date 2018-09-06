@@ -1,0 +1,1928 @@
+{
+    "type": "setlists",
+    "itemsPerPage": 20,
+    "page": 1,
+    "total": 496,
+    "setlist": [
+        {
+            "id": "43e87b33",
+            "versionId": "63648e0b",
+            "eventDate": "02-09-2018",
+            "lastUpdated": "2018-08-31T00:06:03.000+0000",
+            "artist": {
+                "mbid": "4449ccf6-c948-4d33-aa97-b6ad98ce4b5b",
+                "tmid": 903866,
+                "name": "Metric",
+                "sortName": "Metric",
+                "disambiguation": "indie rock",
+                "url": "https://www.setlist.fm/setlists/metric-23d698a3.html"
+            },
+            "venue": {
+                "id": "13d5e579",
+                "name": "T-Mobile Arena",
+                "city": {
+                    "id": "5506956",
+                    "name": "Las Vegas",
+                    "state": "Nevada",
+                    "stateCode": "NV",
+                    "coords": {
+                        "lat": 36.1749705,
+                        "long": -115.137223
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/t-mobile-arena-las-vegas-nv-usa-13d5e579.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/metric/2018/t-mobile-arena-las-vegas-nv-43e87b33.html"
+        },
+        {
+            "id": "43e87b5f",
+            "versionId": "5b64cb60",
+            "eventDate": "02-09-2018",
+            "lastUpdated": "2018-09-03T04:35:47.000+0000",
+            "artist": {
+                "mbid": "ba0d6274-db14-4ef5-b28d-657ebde1a396",
+                "tmid": 736143,
+                "name": "The Smashing Pumpkins",
+                "sortName": "Smashing Pumpkins, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-smashing-pumpkins-23d6e0ab.html"
+            },
+            "venue": {
+                "id": "13d5e579",
+                "name": "T-Mobile Arena",
+                "city": {
+                    "id": "5506956",
+                    "name": "Las Vegas",
+                    "state": "Nevada",
+                    "stateCode": "NV",
+                    "coords": {
+                        "lat": 36.1749705,
+                        "long": -115.137223
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/t-mobile-arena-las-vegas-nv-usa-13d5e579.html"
+            },
+            "tour": {
+                "name": "Shiny And Oh So Bright"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Mellon Collie and the Infinite Sadness"
+                            },
+                            {
+                                "name": "Disarm"
+                            },
+                            {
+                                "name": "Rocket"
+                            },
+                            {
+                                "name": "Siva"
+                            },
+                            {
+                                "name": "Rhinoceros"
+                            },
+                            {
+                                "name": "Space Oddity",
+                                "cover": {
+                                    "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50",
+                                    "tmid": 734626,
+                                    "name": "David Bowie",
+                                    "sortName": "Bowie, David",
+                                    "disambiguation": "English singer, songwriter & actor",
+                                    "url": "https://www.setlist.fm/setlists/david-bowie-6bd6ee66.html"
+                                }
+                            },
+                            {
+                                "name": "Drown"
+                            },
+                            {
+                                "name": "Zero Speech Interlude",
+                                "tape": true
+                            },
+                            {
+                                "name": "Zero"
+                            },
+                            {
+                                "name": "The Everlasting Gaze"
+                            },
+                            {
+                                "name": "Stand Inside Your Love"
+                            },
+                            {
+                                "name": "Thirty-Three"
+                            },
+                            {
+                                "name": "Eye"
+                            },
+                            {
+                                "name": "Soma"
+                            },
+                            {
+                                "name": "Mark McGrath Vaudeville Interlude #1",
+                                "tape": true
+                            },
+                            {
+                                "name": "Blew Away"
+                            },
+                            {
+                                "name": "For Martha"
+                            },
+                            {
+                                "name": "To Sheila"
+                            },
+                            {
+                                "name": "Mayonaise"
+                            },
+                            {
+                                "name": "Porcelina of the Vast Oceans"
+                            },
+                            {
+                                "name": "Landslide",
+                                "cover": {
+                                    "mbid": "bd13909f-1c29-4c27-a874-d4aaf27c5b1a",
+                                    "tmid": 735087,
+                                    "name": "Fleetwood Mac",
+                                    "sortName": "Fleetwood Mac",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/fleetwood-mac-7bd6bef0.html"
+                                }
+                            },
+                            {
+                                "name": "Tonight, Tonight"
+                            },
+                            {
+                                "name": "Stairway to Heaven",
+                                "cover": {
+                                    "mbid": "678d88b2-87b0-403b-b63d-5da7465aecc3",
+                                    "tmid": 915807,
+                                    "name": "Led Zeppelin",
+                                    "sortName": "Led Zeppelin",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/led-zeppelin-13d6b509.html"
+                                }
+                            },
+                            {
+                                "name": "Cherub Rock"
+                            },
+                            {
+                                "name": "Mark McGrath Vaudeville Interlude #2",
+                                "tape": true
+                            },
+                            {
+                                "name": "Radio Intro",
+                                "tape": true
+                            },
+                            {
+                                "name": "1979"
+                            },
+                            {
+                                "name": "Ava Adore"
+                            },
+                            {
+                                "name": "Try, Try, Try"
+                            },
+                            {
+                                "name": "The Beginning Is the End Is the Beginning"
+                            },
+                            {
+                                "name": "Hummer"
+                            },
+                            {
+                                "name": "Today"
+                            },
+                            {
+                                "name": "Bullet With Butterfly Wings"
+                            },
+                            {
+                                "name": "Muzzle"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "Solara",
+                                "info": "with drum solo"
+                            },
+                            {
+                                "name": "Baby Mine",
+                                "cover": {
+                                    "mbid": "5afe6fc4-4d96-40f5-a02e-ab7d68c66d34",
+                                    "name": "Betty Noyes",
+                                    "sortName": "Noyes, Betty",
+                                    "url": "https://www.setlist.fm/setlists/betty-noyes-6bd6366e.html"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/the-smashing-pumpkins/2018/t-mobile-arena-las-vegas-nv-43e87b5f.html"
+        },
+        {
+            "id": "4beb5b0e",
+            "versionId": "4379cf17",
+            "eventDate": "03-08-2018",
+            "lastUpdated": "2018-08-04T07:34:28.000+0000",
+            "artist": {
+                "mbid": "a6a4960c-dafe-43ea-b431-7d2dddd8cc1e",
+                "name": "Alison Wonderland",
+                "sortName": "Alison Wonderland",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/alison-wonderland-3da657b.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/alison-wonderland/2018/ogden-theatre-denver-co-4beb5b0e.html"
+        },
+        {
+            "id": "53eb5b0d",
+            "versionId": "4b79cf16",
+            "eventDate": "03-08-2018",
+            "lastUpdated": "2018-08-04T07:35:25.000+0000",
+            "artist": {
+                "mbid": "2f6a6eec-a179-4e6e-a6a3-a0d125c71c8e",
+                "name": "Chet Porter",
+                "sortName": "Porter, Chet",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/chet-porter-63c2da67.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/chet-porter/2018/ogden-theatre-denver-co-53eb5b0d.html"
+        },
+        {
+            "id": "1beb1db4",
+            "versionId": "b6685aa",
+            "eventDate": "29-07-2018",
+            "lastUpdated": "2018-08-11T13:23:28.000+0000",
+            "artist": {
+                "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                "tmid": 763468,
+                "name": "Radiohead",
+                "sortName": "Radiohead",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/radiohead-bd6bd12.html"
+            },
+            "venue": {
+                "id": "3bd61414",
+                "name": "TD Garden",
+                "city": {
+                    "id": "4930956",
+                    "name": "Boston",
+                    "state": "Massachusetts",
+                    "stateCode": "MA",
+                    "coords": {
+                        "lat": 42.3584308,
+                        "long": -71.0597732
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/td-garden-boston-ma-usa-3bd61414.html"
+            },
+            "tour": {
+                "name": "A Moon Shaped Pool"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "I Wish I Knew How It Would Feel to Be Free",
+                                "tape": true,
+                                "cover": {
+                                    "mbid": "80855d0f-b173-432a-8882-178cdec7fd71",
+                                    "name": "Billy Taylor",
+                                    "sortName": "Taylor, Billy",
+                                    "disambiguation": "jazz/bop pianist",
+                                    "url": "https://www.setlist.fm/setlists/billy-taylor-23d680c7.html"
+                                },
+                                "info": "Nina Simone version"
+                            },
+                            {
+                                "name": "Daydreaming"
+                            },
+                            {
+                                "name": "Ful Stop"
+                            },
+                            {
+                                "name": "15 Step"
+                            },
+                            {
+                                "name": "Lucky"
+                            },
+                            {
+                                "name": "Kid A"
+                            },
+                            {
+                                "name": "Burn the Witch"
+                            },
+                            {
+                                "name": "The Gloaming"
+                            },
+                            {
+                                "name": "Like Spinning Plates"
+                            },
+                            {
+                                "name": "Pyramid Song"
+                            },
+                            {
+                                "name": "Let Down"
+                            },
+                            {
+                                "name": "Bloom"
+                            },
+                            {
+                                "name": "Talk Show Host"
+                            },
+                            {
+                                "name": "I Might Be Wrong"
+                            },
+                            {
+                                "name": "House of Cards"
+                            },
+                            {
+                                "name": "Decks Dark"
+                            },
+                            {
+                                "name": "Bodysnatchers"
+                            },
+                            {
+                                "name": "Nude"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "Give Up the Ghost"
+                            },
+                            {
+                                "name": "A Wolf at the Door"
+                            },
+                            {
+                                "name": "Idioteque"
+                            },
+                            {
+                                "name": "Paranoid Android"
+                            },
+                            {
+                                "name": "The Tourist"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 2,
+                        "song": [
+                            {
+                                "name": "The Bends"
+                            },
+                            {
+                                "name": "Weird Fishes/Arpeggi"
+                            },
+                            {
+                                "name": "Everything in Its Right Place"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/radiohead/2018/td-garden-boston-ma-1beb1db4.html"
+        },
+        {
+            "id": "63eb0abb",
+            "versionId": "63796e2f",
+            "eventDate": "29-07-2018",
+            "lastUpdated": "2018-08-08T02:19:26.000+0000",
+            "artist": {
+                "mbid": "41945420-84ad-48ef-8fe4-933600e8e2f3",
+                "name": "Junun",
+                "sortName": "Junun",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/junun-33c82c21.html"
+            },
+            "venue": {
+                "id": "3bd61414",
+                "name": "TD Garden",
+                "city": {
+                    "id": "4930956",
+                    "name": "Boston",
+                    "state": "Massachusetts",
+                    "stateCode": "MA",
+                    "coords": {
+                        "lat": 42.3584308,
+                        "long": -71.0597732
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/td-garden-boston-ma-usa-3bd61414.html"
+            },
+            "tour": {
+                "name": "Junun"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": ""
+                            },
+                            {
+                                "name": "Modeh"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "info": "Setlist incomplete: Lineup: Shye Ben-Tzur, Jonny Greenwood and The Rajasthan Express; Opening act for Radiohead.",
+            "url": "https://www.setlist.fm/setlist/junun/2018/td-garden-boston-ma-63eb0abb.html"
+        },
+        {
+            "id": "1beba560",
+            "versionId": "737bceb9",
+            "eventDate": "14-07-2018",
+            "lastUpdated": "2018-07-15T03:21:14.000+0000",
+            "artist": {
+                "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                "tmid": 763468,
+                "name": "Radiohead",
+                "sortName": "Radiohead",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/radiohead-bd6bd12.html"
+            },
+            "venue": {
+                "id": "23d63cc7",
+                "name": "Madison Square Garden",
+                "city": {
+                    "id": "5128581",
+                    "name": "New York",
+                    "state": "New York",
+                    "stateCode": "NY",
+                    "coords": {
+                        "lat": 40.7142691,
+                        "long": -74.0059729
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/madison-square-garden-new-york-ny-usa-23d63cc7.html"
+            },
+            "tour": {
+                "name": "A Moon Shaped Pool"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Daydreaming"
+                            },
+                            {
+                                "name": "Desert Island Disk"
+                            },
+                            {
+                                "name": "Ful Stop"
+                            },
+                            {
+                                "name": "2 + 2 = 5"
+                            },
+                            {
+                                "name": "Kid A"
+                            },
+                            {
+                                "name": "All I Need"
+                            },
+                            {
+                                "name": "Videotape"
+                            },
+                            {
+                                "name": "No Surprises"
+                            },
+                            {
+                                "name": "Bloom"
+                            },
+                            {
+                                "name": "Everything in Its Right Place"
+                            },
+                            {
+                                "name": "Lotus Flower"
+                            },
+                            {
+                                "name": "The Numbers"
+                            },
+                            {
+                                "name": "Weird Fishes/Arpeggi"
+                            },
+                            {
+                                "name": "Spectre"
+                            },
+                            {
+                                "name": "Exit Music (for a Film)"
+                            },
+                            {
+                                "name": "There There"
+                            },
+                            {
+                                "name": "Street Spirit (Fade Out)"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "Idioteque"
+                            },
+                            {
+                                "name": "House of Cards"
+                            },
+                            {
+                                "name": "Present Tense"
+                            },
+                            {
+                                "name": "Bodysnatchers",
+                                "info": "'My Iron Lung' was listed as an alternate"
+                            },
+                            {
+                                "name": "The Tourist"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 2,
+                        "song": [
+                            {
+                                "name": "Give Up the Ghost"
+                            },
+                            {
+                                "name": "Optimistic"
+                            },
+                            {
+                                "name": "Karma Police"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/radiohead/2018/madison-square-garden-new-york-ny-1beba560.html"
+        },
+        {
+            "id": "33eb941d",
+            "versionId": "63796e03",
+            "eventDate": "13-07-2018",
+            "lastUpdated": "2018-08-08T02:27:26.000+0000",
+            "artist": {
+                "mbid": "41945420-84ad-48ef-8fe4-933600e8e2f3",
+                "name": "Junun",
+                "sortName": "Junun",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/junun-33c82c21.html"
+            },
+            "venue": {
+                "id": "23d63cc7",
+                "name": "Madison Square Garden",
+                "city": {
+                    "id": "5128581",
+                    "name": "New York",
+                    "state": "New York",
+                    "stateCode": "NY",
+                    "coords": {
+                        "lat": 40.7142691,
+                        "long": -74.0059729
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/madison-square-garden-new-york-ny-usa-23d63cc7.html"
+            },
+            "tour": {
+                "name": "Junun"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Julus"
+                            },
+                            {
+                                "name": "Hu"
+                            },
+                            {
+                                "name": "Saki"
+                            },
+                            {
+                                "name": "Junun"
+                            },
+                            {
+                                "name": "Modeh"
+                            },
+                            {
+                                "name": "Duma Dum Mast Kalandar",
+                                "cover": {
+                                    "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41",
+                                    "name": "[traditional]",
+                                    "sortName": "[traditional]",
+                                    "disambiguation": "Special Purpose Artist",
+                                    "url": "https://www.setlist.fm/setlists/traditional-5bd2f7e4.html"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "info": "Lineup: Shye Ben-Tzur, Jonny Greenwood and The Rajasthan Express; Opening act for Radiohead.",
+            "url": "https://www.setlist.fm/setlist/junun/2018/madison-square-garden-new-york-ny-33eb941d.html"
+        },
+        {
+            "id": "23ebb0db",
+            "versionId": "437bdb73",
+            "eventDate": "13-07-2018",
+            "lastUpdated": "2018-07-14T15:38:10.000+0000",
+            "artist": {
+                "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                "tmid": 763468,
+                "name": "Radiohead",
+                "sortName": "Radiohead",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/radiohead-bd6bd12.html"
+            },
+            "venue": {
+                "id": "23d63cc7",
+                "name": "Madison Square Garden",
+                "city": {
+                    "id": "5128581",
+                    "name": "New York",
+                    "state": "New York",
+                    "stateCode": "NY",
+                    "coords": {
+                        "lat": 40.7142691,
+                        "long": -74.0059729
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/madison-square-garden-new-york-ny-usa-23d63cc7.html"
+            },
+            "tour": {
+                "name": "A Moon Shaped Pool"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Daydreaming"
+                            },
+                            {
+                                "name": "Desert Island Disk"
+                            },
+                            {
+                                "name": "Ful Stop"
+                            },
+                            {
+                                "name": "15 Step"
+                            },
+                            {
+                                "name": "Lucky"
+                            },
+                            {
+                                "name": "Videotape"
+                            },
+                            {
+                                "name": "Like Spinning Plates"
+                            },
+                            {
+                                "name": "Let Down"
+                            },
+                            {
+                                "name": "Climbing Up the Walls"
+                            },
+                            {
+                                "name": "Everything in Its Right Place"
+                            },
+                            {
+                                "name": "Bloom"
+                            },
+                            {
+                                "name": "Separator"
+                            },
+                            {
+                                "name": "Reckoner"
+                            },
+                            {
+                                "name": "Fake Plastic Trees"
+                            },
+                            {
+                                "name": "How to Disappear Completely"
+                            },
+                            {
+                                "name": "Kid A"
+                            },
+                            {
+                                "name": "Myxomatosis"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "Airbag"
+                            },
+                            {
+                                "name": "The National Anthem"
+                            },
+                            {
+                                "name": "The Gloaming"
+                            },
+                            {
+                                "name": "Idioteque"
+                            },
+                            {
+                                "name": "Bodysnatchers"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 2,
+                        "song": [
+                            {
+                                "name": "Nude",
+                                "info": "Not on written setlist; ‘House of Cards’ was in this spot"
+                            },
+                            {
+                                "name": "Paranoid Android"
+                            },
+                            {
+                                "name": "The Bends"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/radiohead/2018/madison-square-garden-new-york-ny-23ebb0db.html"
+        },
+        {
+            "id": "33ebac95",
+            "versionId": "73796e01",
+            "eventDate": "11-07-2018",
+            "lastUpdated": "2018-08-08T02:27:53.000+0000",
+            "artist": {
+                "mbid": "41945420-84ad-48ef-8fe4-933600e8e2f3",
+                "name": "Junun",
+                "sortName": "Junun",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/junun-33c82c21.html"
+            },
+            "venue": {
+                "id": "23d63cc7",
+                "name": "Madison Square Garden",
+                "city": {
+                    "id": "5128581",
+                    "name": "New York",
+                    "state": "New York",
+                    "stateCode": "NY",
+                    "coords": {
+                        "lat": 40.7142691,
+                        "long": -74.0059729
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/madison-square-garden-new-york-ny-usa-23d63cc7.html"
+            },
+            "tour": {
+                "name": "Junun"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Julus"
+                            },
+                            {
+                                "name": "Hu"
+                            },
+                            {
+                                "name": "Kalandar"
+                            },
+                            {
+                                "name": "Junun"
+                            },
+                            {
+                                "name": "Modeh"
+                            },
+                            {
+                                "name": "Duma Dum Mast Kalandar",
+                                "cover": {
+                                    "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41",
+                                    "name": "[traditional]",
+                                    "sortName": "[traditional]",
+                                    "disambiguation": "Special Purpose Artist",
+                                    "url": "https://www.setlist.fm/setlists/traditional-5bd2f7e4.html"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "info": "Lineup: Shye Ben-Tzur, Jonny Greenwood and The Rajasthan Express; Opening act for Radiohead.",
+            "url": "https://www.setlist.fm/setlist/junun/2018/madison-square-garden-new-york-ny-33ebac95.html"
+        },
+        {
+            "id": "73ea4691",
+            "versionId": "1b7b8db0",
+            "eventDate": "11-07-2018",
+            "lastUpdated": "2018-07-12T02:42:54.000+0000",
+            "artist": {
+                "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                "tmid": 763468,
+                "name": "Radiohead",
+                "sortName": "Radiohead",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/radiohead-bd6bd12.html"
+            },
+            "venue": {
+                "id": "23d63cc7",
+                "name": "Madison Square Garden",
+                "city": {
+                    "id": "5128581",
+                    "name": "New York",
+                    "state": "New York",
+                    "stateCode": "NY",
+                    "coords": {
+                        "lat": 40.7142691,
+                        "long": -74.0059729
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/madison-square-garden-new-york-ny-usa-23d63cc7.html"
+            },
+            "tour": {
+                "name": "A Moon Shaped Pool"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Daydreaming"
+                            },
+                            {
+                                "name": "Desert Island Disk"
+                            },
+                            {
+                                "name": "Ful Stop"
+                            },
+                            {
+                                "name": "Myxomatosis"
+                            },
+                            {
+                                "name": "15 Step"
+                            },
+                            {
+                                "name": "Kid A"
+                            },
+                            {
+                                "name": "All I Need"
+                            },
+                            {
+                                "name": "The National Anthem"
+                            },
+                            {
+                                "name": "The Gloaming"
+                            },
+                            {
+                                "name": "Spectre"
+                            },
+                            {
+                                "name": "You and Whose Army?"
+                            },
+                            {
+                                "name": "Bloom"
+                            },
+                            {
+                                "name": "Identikit"
+                            },
+                            {
+                                "name": "Weird Fishes/Arpeggi"
+                            },
+                            {
+                                "name": "No Surprises"
+                            },
+                            {
+                                "name": "There There"
+                            },
+                            {
+                                "name": "Everything in Its Right Place"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "Optimistic"
+                            },
+                            {
+                                "name": "Nude"
+                            },
+                            {
+                                "name": "The Numbers"
+                            },
+                            {
+                                "name": "Lotus Flower"
+                            },
+                            {
+                                "name": "Fake Plastic Trees"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 2,
+                        "song": [
+                            {
+                                "name": "Idioteque"
+                            },
+                            {
+                                "name": "Exit Music (for a Film)"
+                            },
+                            {
+                                "name": "Karma Police"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/radiohead/2018/madison-square-garden-new-york-ny-73ea4691.html"
+        },
+        {
+            "id": "23ebb01b",
+            "versionId": "73796e05",
+            "eventDate": "10-07-2018",
+            "lastUpdated": "2018-08-08T02:29:00.000+0000",
+            "artist": {
+                "mbid": "41945420-84ad-48ef-8fe4-933600e8e2f3",
+                "name": "Junun",
+                "sortName": "Junun",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/junun-33c82c21.html"
+            },
+            "venue": {
+                "id": "23d63cc7",
+                "name": "Madison Square Garden",
+                "city": {
+                    "id": "5128581",
+                    "name": "New York",
+                    "state": "New York",
+                    "stateCode": "NY",
+                    "coords": {
+                        "lat": 40.7142691,
+                        "long": -74.0059729
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/madison-square-garden-new-york-ny-usa-23d63cc7.html"
+            },
+            "tour": {
+                "name": "Junun"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Julus"
+                            },
+                            {
+                                "name": "Hu"
+                            },
+                            {
+                                "name": "Chala Vahi Des"
+                            },
+                            {
+                                "name": "Modeh"
+                            },
+                            {
+                                "name": "Duma Dum Mast Kalandar",
+                                "cover": {
+                                    "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41",
+                                    "name": "[traditional]",
+                                    "sortName": "[traditional]",
+                                    "disambiguation": "Special Purpose Artist",
+                                    "url": "https://www.setlist.fm/setlists/traditional-5bd2f7e4.html"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "info": "Lineup: Shye Ben-Tzur, Jonny Greenwood and The Rajasthan Express; Opening act for Radiohead.",
+            "url": "https://www.setlist.fm/setlist/junun/2018/madison-square-garden-new-york-ny-23ebb01b.html"
+        },
+        {
+            "id": "bea49e6",
+            "versionId": "6b7b96f6",
+            "eventDate": "10-07-2018",
+            "lastUpdated": "2018-07-11T19:44:00.000+0000",
+            "artist": {
+                "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                "tmid": 763468,
+                "name": "Radiohead",
+                "sortName": "Radiohead",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/radiohead-bd6bd12.html"
+            },
+            "venue": {
+                "id": "23d63cc7",
+                "name": "Madison Square Garden",
+                "city": {
+                    "id": "5128581",
+                    "name": "New York",
+                    "state": "New York",
+                    "stateCode": "NY",
+                    "coords": {
+                        "lat": 40.7142691,
+                        "long": -74.0059729
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/madison-square-garden-new-york-ny-usa-23d63cc7.html"
+            },
+            "tour": {
+                "name": "A Moon Shaped Pool"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "I Wish I Knew How It Would Feel to Be Free",
+                                "tape": true,
+                                "cover": {
+                                    "mbid": "80855d0f-b173-432a-8882-178cdec7fd71",
+                                    "name": "Billy Taylor",
+                                    "sortName": "Taylor, Billy",
+                                    "disambiguation": "jazz/bop pianist",
+                                    "url": "https://www.setlist.fm/setlists/billy-taylor-23d680c7.html"
+                                },
+                                "info": "Nina Simone version"
+                            },
+                            {
+                                "name": "Daydreaming"
+                            },
+                            {
+                                "name": "Ful Stop"
+                            },
+                            {
+                                "name": "Myxomatosis"
+                            },
+                            {
+                                "name": "Morning Bell"
+                            },
+                            {
+                                "name": "Optimistic"
+                            },
+                            {
+                                "name": "Kid A"
+                            },
+                            {
+                                "name": "Decks Dark"
+                            },
+                            {
+                                "name": "Pyramid Song"
+                            },
+                            {
+                                "name": "Let Down"
+                            },
+                            {
+                                "name": "Bloom"
+                            },
+                            {
+                                "name": "The Numbers"
+                            },
+                            {
+                                "name": "How to Disappear Completely"
+                            },
+                            {
+                                "name": "Reckoner"
+                            },
+                            {
+                                "name": "Lotus Flower"
+                            },
+                            {
+                                "name": "Paranoid Android"
+                            },
+                            {
+                                "name": "Idioteque"
+                            },
+                            {
+                                "name": "Nude"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "Present Tense"
+                            },
+                            {
+                                "name": "Weird Fishes/Arpeggi"
+                            },
+                            {
+                                "name": "The Gloaming"
+                            },
+                            {
+                                "name": "Bodysnatchers"
+                            },
+                            {
+                                "name": "The Tourist"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 2,
+                        "song": [
+                            {
+                                "name": "You and Whose Army?",
+                                "info": "‘Blow Out’, ‘Videotape’, and ‘Everything In Its Right Place’ were all listed as alternates"
+                            },
+                            {
+                                "name": "No Surprises"
+                            },
+                            {
+                                "name": "The Bends"
+                            },
+                            {
+                                "name": "Egyptian Fantasy",
+                                "tape": true,
+                                "cover": {
+                                    "mbid": "bf1b23ea-9b76-42cf-a5f6-4a691e81af5e",
+                                    "name": "Sidney Bechet",
+                                    "sortName": "Bechet, Sidney",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/sidney-bechet-1bd60d4c.html"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/radiohead/2018/madison-square-garden-new-york-ny-bea49e6.html"
+        },
+        {
+            "id": "63ea622f",
+            "versionId": "137be53d",
+            "eventDate": "07-07-2018",
+            "lastUpdated": "2018-07-14T01:39:00.000+0000",
+            "artist": {
+                "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                "tmid": 763468,
+                "name": "Radiohead",
+                "sortName": "Radiohead",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/radiohead-bd6bd12.html"
+            },
+            "venue": {
+                "id": "43d2870b",
+                "name": "United Center",
+                "city": {
+                    "id": "4887398",
+                    "name": "Chicago",
+                    "state": "Illinois",
+                    "stateCode": "IL",
+                    "coords": {
+                        "lat": 41.850033,
+                        "long": -87.6500523
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/united-center-chicago-il-usa-43d2870b.html"
+            },
+            "tour": {
+                "name": "A Moon Shaped Pool"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "I Wish I Knew How It Would Feel to Be Free",
+                                "tape": true,
+                                "cover": {
+                                    "mbid": "80855d0f-b173-432a-8882-178cdec7fd71",
+                                    "name": "Billy Taylor",
+                                    "sortName": "Taylor, Billy",
+                                    "disambiguation": "jazz/bop pianist",
+                                    "url": "https://www.setlist.fm/setlists/billy-taylor-23d680c7.html"
+                                },
+                                "info": "Nina Simone version"
+                            },
+                            {
+                                "name": "Daydreaming"
+                            },
+                            {
+                                "name": "Desert Island Disk"
+                            },
+                            {
+                                "name": "Ful Stop"
+                            },
+                            {
+                                "name": "Myxomatosis"
+                            },
+                            {
+                                "name": "Lucky"
+                            },
+                            {
+                                "name": "Kid A"
+                            },
+                            {
+                                "name": "Decks Dark"
+                            },
+                            {
+                                "name": "Where I End and You Begin"
+                            },
+                            {
+                                "name": "Separator"
+                            },
+                            {
+                                "name": "Exit Music (for a Film)"
+                            },
+                            {
+                                "name": "Spectre",
+                                "info": "Tour debut; first performance by Radiohead. Thom & Colin only"
+                            },
+                            {
+                                "name": "Climbing Up the Walls"
+                            },
+                            {
+                                "name": "The Gloaming"
+                            },
+                            {
+                                "name": "Idioteque"
+                            },
+                            {
+                                "name": "Feral"
+                            },
+                            {
+                                "name": "My Iron Lung"
+                            },
+                            {
+                                "name": "Bodysnatchers"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "You and Whose Army?",
+                                "info": "‘House of Cards’ was listed as an alternate"
+                            },
+                            {
+                                "name": "Airbag"
+                            },
+                            {
+                                "name": "The National Anthem"
+                            },
+                            {
+                                "name": "2 + 2 = 5"
+                            },
+                            {
+                                "name": "Street Spirit (Fade Out)"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 2,
+                        "song": [
+                            {
+                                "name": "Everything in Its Right Place",
+                                "info": "Not on written setlist; ‘Present Tense’ was in this spot"
+                            },
+                            {
+                                "name": "Pyramid Song",
+                                "info": "Not on written setlist; 'Optimistic’ was in this spot"
+                            },
+                            {
+                                "name": "Karma Police"
+                            },
+                            {
+                                "name": "Egyptian Fantasy",
+                                "tape": true,
+                                "cover": {
+                                    "mbid": "bf1b23ea-9b76-42cf-a5f6-4a691e81af5e",
+                                    "name": "Sidney Bechet",
+                                    "sortName": "Bechet, Sidney",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/sidney-bechet-1bd60d4c.html"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/radiohead/2018/united-center-chicago-il-63ea622f.html"
+        },
+        {
+            "id": "13ea5ddd",
+            "versionId": "6b796e32",
+            "eventDate": "07-07-2018",
+            "lastUpdated": "2018-08-08T02:16:27.000+0000",
+            "artist": {
+                "mbid": "41945420-84ad-48ef-8fe4-933600e8e2f3",
+                "name": "Junun",
+                "sortName": "Junun",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/junun-33c82c21.html"
+            },
+            "venue": {
+                "id": "43d2870b",
+                "name": "United Center",
+                "city": {
+                    "id": "4887398",
+                    "name": "Chicago",
+                    "state": "Illinois",
+                    "stateCode": "IL",
+                    "coords": {
+                        "lat": 41.850033,
+                        "long": -87.6500523
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/united-center-chicago-il-usa-43d2870b.html"
+            },
+            "tour": {
+                "name": "Junun"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Junun"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "info": "Lineup: Shye Ben-Tzur, Jonny Greenwood and The Rajasthan Express; Opening act for Radiohead.",
+            "url": "https://www.setlist.fm/setlist/junun/2018/united-center-chicago-il-13ea5ddd.html"
+        },
+        {
+            "id": "7bea6a40",
+            "versionId": "1b788dcc",
+            "eventDate": "06-07-2018",
+            "lastUpdated": "2018-07-23T05:08:16.000+0000",
+            "artist": {
+                "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                "tmid": 763468,
+                "name": "Radiohead",
+                "sortName": "Radiohead",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/radiohead-bd6bd12.html"
+            },
+            "venue": {
+                "id": "43d2870b",
+                "name": "United Center",
+                "city": {
+                    "id": "4887398",
+                    "name": "Chicago",
+                    "state": "Illinois",
+                    "stateCode": "IL",
+                    "coords": {
+                        "lat": 41.850033,
+                        "long": -87.6500523
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/united-center-chicago-il-usa-43d2870b.html"
+            },
+            "tour": {
+                "name": "A Moon Shaped Pool"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "I Wish I Knew How It Would Feel to Be Free",
+                                "tape": true,
+                                "cover": {
+                                    "mbid": "80855d0f-b173-432a-8882-178cdec7fd71",
+                                    "name": "Billy Taylor",
+                                    "sortName": "Taylor, Billy",
+                                    "disambiguation": "jazz/bop pianist",
+                                    "url": "https://www.setlist.fm/setlists/billy-taylor-23d680c7.html"
+                                },
+                                "info": "Nina Simone version"
+                            },
+                            {
+                                "name": "Daydreaming"
+                            },
+                            {
+                                "name": "Desert Island Disk"
+                            },
+                            {
+                                "name": "Ful Stop"
+                            },
+                            {
+                                "name": "Morning Bell"
+                            },
+                            {
+                                "name": "Myxomatosis"
+                            },
+                            {
+                                "name": "All I Need"
+                            },
+                            {
+                                "name": "Pyramid Song"
+                            },
+                            {
+                                "name": "Paranoid Android"
+                            },
+                            {
+                                "name": "Decks Dark",
+                                "info": "Thom: \"I can't remember the fuckin' words\""
+                            },
+                            {
+                                "name": "Let Down"
+                            },
+                            {
+                                "name": "Bloom"
+                            },
+                            {
+                                "name": "The Numbers"
+                            },
+                            {
+                                "name": "How to Disappear Completely"
+                            },
+                            {
+                                "name": "Reckoner"
+                            },
+                            {
+                                "name": "Lotus Flower"
+                            },
+                            {
+                                "name": "Idioteque"
+                            },
+                            {
+                                "name": "Everything in Its Right Place"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "Burn the Witch"
+                            },
+                            {
+                                "name": "Weird Fishes/Arpeggi"
+                            },
+                            {
+                                "name": "Fake Plastic Trees"
+                            },
+                            {
+                                "name": "Nude"
+                            },
+                            {
+                                "name": "15 Step"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 2,
+                        "song": [
+                            {
+                                "name": "Blow Out",
+                                "info": "Tour debut; first performance since 2008"
+                            },
+                            {
+                                "name": "No Surprises"
+                            },
+                            {
+                                "name": "There There"
+                            },
+                            {
+                                "name": "Egyptian Fantasy",
+                                "tape": true,
+                                "cover": {
+                                    "mbid": "bf1b23ea-9b76-42cf-a5f6-4a691e81af5e",
+                                    "name": "Sidney Bechet",
+                                    "sortName": "Bechet, Sidney",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/sidney-bechet-1bd60d4c.html"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "info": "Soundcheck: 'Myxomatosis', 'Bloom', 'Separator', 'Identikit', 'Follow Me Around', 'Morning Bell', 'Where I End and You Begin', 'I Might Be Wrong', 'The Gloaming', 'Optimistic', 'Kid A', 'Nude', 'A Wolf at the Door', '15 Step' and 'Decks Dark'.",
+            "url": "https://www.setlist.fm/setlist/radiohead/2018/united-center-chicago-il-7bea6a40.html"
+        },
+        {
+            "id": "5beaa3c0",
+            "versionId": "2b7aa872",
+            "eventDate": "07-06-2018",
+            "lastUpdated": "2018-06-26T14:39:28.000+0000",
+            "artist": {
+                "mbid": "b9472588-93f3-4922-a1a2-74082cdf9ce8",
+                "tmid": 1021077,
+                "name": "Panic! at the Disco",
+                "sortName": "Panic! at the Disco",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/panic-at-the-disco-23d6bccb.html"
+            },
+            "venue": {
+                "id": "23d63c7b",
+                "name": "Discovery Meadow",
+                "city": {
+                    "id": "5392171",
+                    "name": "San Jose",
+                    "state": "California",
+                    "stateCode": "CA",
+                    "coords": {
+                        "lat": 37.3393857,
+                        "long": -121.8949555
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/discovery-meadow-san-jose-ca-usa-23d63c7b.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Don't Threaten Me with a Good Time"
+                            },
+                            {
+                                "name": "High Hopes"
+                            },
+                            {
+                                "name": "LA Devotee"
+                            },
+                            {
+                                "name": "Movin' Out (Anthony's Song)",
+                                "cover": {
+                                    "mbid": "64b94289-9474-4d43-8c93-918ccc1920d1",
+                                    "tmid": 735392,
+                                    "name": "Billy Joel",
+                                    "sortName": "Joel, Billy",
+                                    "disambiguation": "",
+                                    "url": "https://www.setlist.fm/setlists/billy-joel-7bd6be40.html"
+                                }
+                            },
+                            {
+                                "name": "Hallelujah"
+                            },
+                            {
+                                "name": "Miss Jackson"
+                            },
+                            {
+                                "name": "Emperor's New Clothes"
+                            },
+                            {
+                                "name": "(Fuck A) Silver Lining"
+                            },
+                            {
+                                "name": "Death of a Bachelor"
+                            },
+                            {
+                                "name": "Bohemian Rhapsody",
+                                "cover": {
+                                    "mbid": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                                    "tmid": 845182,
+                                    "name": "Queen",
+                                    "sortName": "Queen",
+                                    "disambiguation": "UK rock group",
+                                    "url": "https://www.setlist.fm/setlists/queen-43d6e37f.html"
+                                }
+                            },
+                            {
+                                "name": "Say Amen (Saturday Night)"
+                            },
+                            {
+                                "name": "I Write Sins Not Tragedies"
+                            },
+                            {
+                                "name": "Victorious"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "info": "WWDC Bash; 60 min; Setlist probably incomplete and out of order",
+            "url": "https://www.setlist.fm/setlist/panic-at-the-disco/2018/discovery-meadow-san-jose-ca-5beaa3c0.html"
+        },
+        {
+            "id": "43edc7ab",
+            "versionId": "4b7fa752",
+            "eventDate": "22-05-2018",
+            "lastUpdated": "2018-05-23T15:26:32.000+0000",
+            "artist": {
+                "mbid": "97b1142f-c71e-4971-8736-4a8ceaf6b4c3",
+                "tmid": 882946,
+                "name": "The Decemberists",
+                "sortName": "Decemberists, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-decemberists-73d6aea5.html"
+            },
+            "venue": {
+                "id": "7bd63674",
+                "name": "Red Rocks Amphitheatre",
+                "city": {
+                    "id": "5431916",
+                    "name": "Morrison",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.6535988,
+                        "long": -105.1910996
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/red-rocks-amphitheatre-morrison-co-usa-7bd63674.html"
+            },
+            "tour": {
+                "name": "Your Girl / Your Ghost World* Tour"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Everything is Awful"
+                            },
+                            {
+                                "name": "Your Ghost"
+                            },
+                            {
+                                "name": "Sucker's Prayer"
+                            },
+                            {
+                                "name": "Make You Better"
+                            },
+                            {
+                                "name": "Cutting Stone"
+                            },
+                            {
+                                "name": "Grace Cathedral Hill"
+                            },
+                            {
+                                "name": "Yankee Bayonet (I Will Be Home Then)"
+                            },
+                            {
+                                "name": "The Bagman's Gambit"
+                            },
+                            {
+                                "name": "Rox in the Box",
+                                "info": "w/Blackleg Miner verse"
+                            },
+                            {
+                                "name": "Bandit Queen"
+                            },
+                            {
+                                "name": "Down by the Water"
+                            },
+                            {
+                                "name": "Starwatcher"
+                            },
+                            {
+                                "name": "The Rake's Song"
+                            },
+                            {
+                                "name": "Severed"
+                            },
+                            {
+                                "name": "We All Die Young"
+                            },
+                            {
+                                "name": "O Valencia!",
+                                "info": "w/ Dracula’s Daughter verse"
+                            },
+                            {
+                                "name": "Once In My Life",
+                                "info": "w/ Please Please Please Let Me Get What I Want (The Smiths) verse"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "Rusalka, Rusalka / Wild Rushes"
+                            },
+                            {
+                                "name": "Ben Franklin's Song"
+                            },
+                            {
+                                "name": "I'll Be Your Girl"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 2,
+                        "song": [
+                            {
+                                "name": "The Mariner's Revenge Song"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/the-decemberists/2018/red-rocks-amphitheatre-morrison-co-43edc7ab.html"
+        },
+        {
+            "id": "73eebaa5",
+            "versionId": "7b71caa0",
+            "eventDate": "26-01-2018",
+            "lastUpdated": "2018-05-06T01:20:03.000+0000",
+            "artist": {
+                "mbid": "3e1f2ee4-16be-4406-bf18-6173840cf2b1",
+                "tmid": 1923024,
+                "name": "Martin Garrix",
+                "sortName": "Garrix, Martin",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/martin-garrix-23dd8c1f.html"
+            },
+            "venue": {
+                "id": "4bd2cb22",
+                "name": "Buttermilk",
+                "city": {
+                    "id": "5412230",
+                    "name": "Aspen",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.1910983,
+                        "long": -106.8175387
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/buttermilk-aspen-co-usa-4bd2cb22.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/martin-garrix/2018/buttermilk-aspen-co-73eebaa5.html"
+        },
+        {
+            "id": "73e18275",
+            "versionId": "534a2f09",
+            "eventDate": "17-12-2017",
+            "lastUpdated": "2017-12-18T22:50:00.000+0000",
+            "artist": {
+                "mbid": "ffb18e19-64a4-4a65-b4ce-979e00c3c69d",
+                "tmid": 858226,
+                "name": "The Album Leaf",
+                "sortName": "Album Leaf, The",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/the-album-leaf-43d69b27.html"
+            },
+            "venue": {
+                "id": "43d57f77",
+                "name": "Barbara Jordan Post Office",
+                "city": {
+                    "id": "4699066",
+                    "name": "Houston",
+                    "state": "Texas",
+                    "stateCode": "TX",
+                    "coords": {
+                        "lat": 29.7632836,
+                        "long": -95.3632715
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/barbara-jordan-post-office-houston-tx-usa-43d57f77.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/the-album-leaf/2017/barbara-jordan-post-office-houston-tx-73e18275.html"
+        }
+    ]
+}
