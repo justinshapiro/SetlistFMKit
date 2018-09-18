@@ -25,10 +25,11 @@ final class MockNetwork: URLSessionProtocol {
             let requestUrl = url.url,
             let data = try? Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe) else {
                 let response = HTTPURLResponse(url: URL(string: "http://www.setlist.fm")!, statusCode: 500, httpVersion: nil, headerFields: nil)
-                completionHandler(nil, response, nil)
+                
+                let error = NSError(domain: "", code: response!.statusCode, userInfo: nil)
+                completionHandler(nil, response, error as Error)
                 return MockDataTask()
         }
-        
         
         let response = HTTPURLResponse(url: requestUrl, statusCode: 200, httpVersion: nil, headerFields: nil)
         completionHandler(data, response, nil)

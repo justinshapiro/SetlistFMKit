@@ -101,11 +101,13 @@ final class SetlistFmKitTests: XCTestCase {
         }
     }
     
-    func testSearchArtists() {
+    private enum TestSearchArtistsOption {
+        case byName, byTmid
+    }
+    
+    private func testSearchArtists(option: TestSearchArtistsOption) {
         let asyncExpectation = expectation(description: "Get data from the search/artists endpoint")
-        
-        mockNetwork.inject(mock: "searchArtists")
-        wrapper.searchArtists(artistName: "Radiohead") {
+        let responseHandler: (SetlistFmWrapper.Result<FMArtistsResult>) -> () = {
             asyncExpectation.fulfill()
             
             if case .success(let artistsResponse) = $0 {
@@ -120,16 +122,34 @@ final class SetlistFmKitTests: XCTestCase {
             }
         }
         
+        mockNetwork.inject(mock: "searchArtists")
+        
+        switch option {
+        case .byName: wrapper.searchArtists(artistName: "Radiohead") { responseHandler($0) }
+        case .byTmid: wrapper.searchArtists(artistTmid: 763468)      { responseHandler($0) }
+        }
+        
         waitForExpectations(timeout: 2.0) { error in
             XCTAssertNil(error, "We expected the call to search/artists to succeed, but it timed out instead")
         }
     }
     
-    func testSearchCities() {
+    func testSearchArtistsWithArtistName() {
+        testSearchArtists(option: .byName)
+    }
+    
+    func testSearchArtistsWithoutArtistName() {
+        testSearchArtists(option: .byTmid)
+    }
+    
+    private enum TestSearchCitiesOption {
+        case byName, byCode
+    }
+    
+    private func testSearchCities(option: TestSearchCitiesOption) {
         let asyncExpectation = expectation(description: "Get data from the search/cities endpoint")
         
-        mockNetwork.inject(mock: "searchCities")
-        wrapper.searchCities(name: "Paris") {
+        let responseHandler: (SetlistFmWrapper.Result<FMCitiesResult>) -> () = {
             asyncExpectation.fulfill()
             
             if case .success(let citiesResponse) = $0 {
@@ -144,9 +164,25 @@ final class SetlistFmKitTests: XCTestCase {
             }
         }
         
+        
+        mockNetwork.inject(mock: "searchCities")
+        
+        switch option {
+        case .byName: wrapper.searchCities(name: "Paris")   { responseHandler($0) }
+        case .byCode: wrapper.searchCities(stateCode: "A8") { responseHandler($0) }
+        }
+        
         waitForExpectations(timeout: 2.0) { error in
             XCTAssertNil(error, "We expected the call to search/cities to succeed, but it timed out instead")
         }
+    }
+    
+    func testSearchCitiesWithCityName() {
+        testSearchCities(option: .byName)
+    }
+    
+    func testSearchCitiesWithoutCityName() {
+        testSearchCities(option: .byCode)
     }
     
     func testSearchCountries() {
@@ -173,11 +209,13 @@ final class SetlistFmKitTests: XCTestCase {
         }
     }
     
-    func testSearchSetlists() {
+    private enum TestSearchSetlistsOption {
+        case byName, byTmid
+    }
+    
+    private func testSearchSetlists(option: TestSearchSetlistsOption) {
         let asyncExpectation = expectation(description: "Get data from the search/setlists endpoint")
-        
-        mockNetwork.inject(mock: "searchSetlists")
-        wrapper.searchSetlists(artistName: "Radiohead", pageNumber: 4) {
+        let responseHandler: (SetlistFmWrapper.Result<FMSetlistsResult>) -> () = {
             asyncExpectation.fulfill()
             
             if case .success(let setlistsResponse) = $0 {
@@ -192,16 +230,33 @@ final class SetlistFmKitTests: XCTestCase {
             }
         }
         
+        mockNetwork.inject(mock: "searchSetlists")
+        
+        switch option {
+        case .byName: wrapper.searchSetlists(artistName: "Radiohead", pageNumber: 4) { responseHandler($0) }
+        case .byTmid: wrapper.searchSetlists(artistTmid: 763468, pageNumber: 4)      { responseHandler($0) }
+        }
+        
         waitForExpectations(timeout: 2.0) { error in
             XCTAssertNil(error, "We expected the call to search/setlists to succeed, but it timed out instead")
         }
     }
     
-    func testSearchVenues() {
+    func testSearchSetlistsWithArtistName() {
+        testSearchSetlists(option: .byName)
+    }
+    
+    func testSearchSetlistsWithoutArtistName() {
+        testSearchSetlists(option: .byTmid)
+    }
+    
+    private enum TestSearchVenuesOption {
+        case byName, byCityName
+    }
+    
+    private func testSearchVenues(option: TestSearchVenuesOption) {
         let asyncExpectation = expectation(description: "Get data from the search/venues endpoint")
-        
-        mockNetwork.inject(mock: "searchVenues")
-        wrapper.searchVenues(name: "Madison Square Garden") {
+        let responseHandler: (SetlistFmWrapper.Result<FMVenuesResult>) -> () = {
             asyncExpectation.fulfill()
             
             if case .success(let venuesResponse) = $0 {
@@ -216,9 +271,24 @@ final class SetlistFmKitTests: XCTestCase {
             }
         }
         
+        mockNetwork.inject(mock: "searchVenues")
+        
+        switch option {
+        case .byName:     wrapper.searchVenues(name: "Madison Square Garden") { responseHandler($0) }
+        case .byCityName: wrapper.searchVenues(cityName: "New York") { responseHandler($0) }
+        }
+        
         waitForExpectations(timeout: 2.0) { error in
             XCTAssertNil(error, "We expected the call to search/venues to succeed, but it timed out instead")
         }
+    }
+    
+    func testSearchVenuesWithVenueName() {
+        testSearchVenues(option: .byName)
+    }
+    
+    func testSearchVenuesWithoutVenueName() {
+        testSearchVenues(option: .byCityName)
     }
     
     func testGetSetlistById() {
@@ -392,6 +462,49 @@ final class SetlistFmKitTests: XCTestCase {
         
         waitForExpectations(timeout: 2.0) { error in
             XCTAssertNil(error, "We expected the call to venue/{venueId}/setlists to succeed, but it timed out instead")
+        }
+    }
+    
+    func testFailedSetlistFmRequest() {
+        struct FakeRequestModel: SetlistFmRequestModel, Decodable {
+            var endpoint: String = "http://fakeaddress:-80"
+            var queryParameters: [String : String]?
+        }
+        
+        let asyncExpectation = expectation(description: "Make a bad, fake request")
+        let fakeRequestModel = FakeRequestModel()
+        let requester = SetlistFmRequest(apiKey: "", language: .english)
+        requester.request(fakeRequestModel) { (result: SetlistFmWrapper.Result<FakeRequestModel>) -> () in
+            asyncExpectation.fulfill()
+            
+            if case .success = result {
+                XCTFail("We expected that making a request with an invalid request model would fail, but it did not")
+            }
+        }
+        
+        waitForExpectations(timeout: 2.0) { error in
+            XCTAssertNil(error, "We expected that making a request with an invalid request model would fail, but it timed out instead")
+        }
+    }
+    
+    func testFailedResponseParsing() {
+        struct RequestModel: SetlistFmRequestModel, Decodable {
+            var endpoint: String = "search/countries"
+            var queryParameters: [String : String]?
+        }
+        
+        let asyncExpectation = expectation(description: "Test a real network response using URLSession")
+        let requester = SetlistFmRequest(apiKey: "", language: .english)
+        requester.request(RequestModel()) { (result: SetlistFmWrapper.Result<RequestModel>) -> () in
+            asyncExpectation.fulfill()
+            
+            if case .success = result {
+                XCTFail("We expected that a request to an endpoint with an invalid parsing description would fail to parse, but it did not")
+            }
+        }
+        
+        waitForExpectations(timeout: 2.0) { error in
+            XCTAssertNil(error, "We expected the network call to succeed, but it timed out instead")
         }
     }
 }
