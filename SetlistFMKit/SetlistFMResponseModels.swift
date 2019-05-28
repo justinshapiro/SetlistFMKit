@@ -1,6 +1,6 @@
 //
-//  SetlistFmResponseModels.swift
-//  SetlistFmKit
+//  SetlistFMResponseModels.swift
+//  SetlistFMKit
 //
 //  Created by Justin Shapiro on 8/11/18.
 //  Copyright © 2018 Justin Shapiro. All rights reserved.
@@ -49,7 +49,7 @@ public struct FMSetlist: Decodable, Equatable {
     let versionId: String?
     
     /// The id this event has on [last.fm](http://last.fm/) (deprecated)
-    let lastFmEventId: Int?
+    let lastFMEventId: Int?
     
     /// Date of the concert in the format "dd-MM-yyyy"
     let eventDate: String?
@@ -140,13 +140,13 @@ public struct FMCitiesResult: Decodable, Equatable {
     let cities: [FMCity]?
     
     /// The total amount of items matching the query
-    let total: Int
+    let total: Int?
     
     /// The current page. starts at 1
-    let page: Int
+    let page: Int?
     
     /// The amount of items you get per page
-    let itemsPerPage: Int
+    let itemsPerPage: Int?
 }
 
 /// The model for a City object from the Setlist.fm API
@@ -261,7 +261,7 @@ public struct FMUser: Decodable, Equatable {
     let fullname: String?
     
     /// The url to the user's LastFM profile page
-    let lastFm: String?
+    let lastFM: String?
     
     /// The url to the user's Myspace profile page
     let mySpace: String?

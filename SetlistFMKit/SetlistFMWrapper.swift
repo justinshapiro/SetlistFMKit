@@ -1,6 +1,6 @@
 //
-//  SetlistFmWrapper.swift
-//  SetlistFmKit
+//  SetlistFMWrapper.swift
+//  SetlistFMKit
 //
 //  Created by Justin Shapiro on 8/13/18.
 //  Copyright © 2018 Justin Shapiro. All rights reserved.
@@ -9,29 +9,24 @@
 /// The object responsible for providing access to a set of methods that map directly to Setlist.fm API endpoints.
 /// Each object returned by the `completion` of the provided methods contains all the data returned from the corresponding endpoint.
 /// A built-in network implementation will handle contacting the API, requesting the data, and parsing it.
-public final class SetlistFmWrapper {
-    /// A wrapper around the returned result of a Setlist.fm API endpoint, which indicates success or failure
-    enum Result<T: Decodable> {
-        case success(T)
-        case failure(Error)
-        
-        struct Error {
-            let code: Int
-            let message: String?
-        }
+public final class SetlistFMWrapper {
+    /// A custom error type that describes a code and a message
+    struct FMError: Error {
+        let code: Int
+        let message: String?
     }
     
     /// The language that the results will return as.
     /// This enum lists all languages supported by the Setlist.fm API.
     enum SupportedLanguage: String {
-        case english = "en"
-        case spanish = "es"
-        case french = "fr"
-        case german = "de"
+        case english    = "en"
+        case spanish    = "es"
+        case french     = "fr"
+        case german     = "de"
         case portuguese = "pt"
-        case turkish = "tr"
-        case italian = "it"
-        case polish = "pl"
+        case turkish    = "tr"
+        case italian    = "it"
+        case polish     = "pl"
     }
     
     /// Strongly-typed version of the sortName parameter, which restricts entry to only the specified types
@@ -45,7 +40,7 @@ public final class SetlistFmWrapper {
     
     /// Private global request object to be initialized with an API key and a language
     /// and subsequently used for all wrapper-requests
-    private let fmRequest: SetlistFmRequest
+    private let fmRequest: SetlistFMRequest
     
     /// Initializes a SetlistFMWrapper instance with a user-provided API key and desired language.
     /// Generating an API key is required to use the Setlist.fm API. This wrapper will not generate one for you.
@@ -53,14 +48,14 @@ public final class SetlistFmWrapper {
     /// - Parameter language: The desired language you wish to obtain results in. `.english` is passed in by default.
     /// - Parameter session: Supply this argument when you want to use a custom networking implementation different than `URLSession.shared`
     init(apiKey: String, language: SupportedLanguage = .english, session: URLSessionProtocol = URLSession.shared) {
-        fmRequest = SetlistFmRequest(apiKey: apiKey, language: language, session: session)
+        fmRequest = SetlistFMRequest(apiKey: apiKey, language: language, session: session)
     }
     
     /// Returns an artist for a given Musicbrainz MBID
     /// - Parameter mbid: A Musicbrainz MBID, e.g. 0bfba3d3-6a04-4779-bb0a-df07df5b0558
     /// - Parameter completion: A callback that returns the requested artist as an `FMArtist`
-    func getArtist(mbid: String, _ completion: @escaping (Result<FMArtist>) -> ()) {
-        let requestModel: SetlistFmRequestModel = GetArtistModel(mbid: mbid)
+    func getArtist(mbid: String, _ completion: @escaping (Result<FMArtist, FMError>) -> ()) {
+        let requestModel: SetlistFMRequestModel = GetArtistModel(mbid: mbid)
         fmRequest.request(requestModel) { completion($0) }
     }
     
@@ -68,16 +63,16 @@ public final class SetlistFmWrapper {
     /// - Parameter mbid: The Musicbrainz MBID of the artist
     /// - Parameter pageNumber: The number of the result page. Default value is 1.
     /// - Parameter completion: A callback that returns the requested list of setlists as an `FMSetlistsResult`
-    func getArtistSetlists(mbid: String, pageNumber: Int = 1, _ completion: @escaping (Result<FMSetlistsResult>) -> ()) {
-        let requestModel: SetlistFmRequestModel = GetArtistSetlistsModel(mbid: mbid, p: pageNumber)
+    func getArtistSetlists(mbid: String, pageNumber: Int = 1, _ completion: @escaping (Result<FMSetlistsResult, FMError>) -> ()) {
+        let requestModel: SetlistFMRequestModel = GetArtistSetlistsModel(mbid: mbid, p: pageNumber)
         fmRequest.request(requestModel) { completion($0) }
     }
     
     /// Get a city by its unique geoId
     /// - Parameter geoId: The city's geoId
     /// - Parameter completion: A callback that returns the requested city as an `FMCity`
-    func getCity(geoId: String, _ completion: @escaping (Result<FMCity>) -> ()) {
-        let requestModel: SetlistFmRequestModel = GetCityModel(geoId: geoId)
+    func getCity(geoId: String, _ completion: @escaping (Result<FMCity, FMError>) -> ()) {
+        let requestModel: SetlistFMRequestModel = GetCityModel(geoId: geoId)
         fmRequest.request(requestModel) { completion($0) }
     }
     
@@ -95,8 +90,8 @@ public final class SetlistFmWrapper {
                        artistTmid: Int? = nil,
                        pageNumber: Int = 1,
                        sortedBy sortType: SortType = .sortName,
-                       _ completion: @escaping (Result<FMArtistsResult>) -> ()) {
-        let requestModel: SetlistFmRequestModel = SearchArtistsModel(
+                       _ completion: @escaping (Result<FMArtistsResult, FMError>) -> ()) {
+        let requestModel: SetlistFMRequestModel = SearchArtistsModel(
             artistMbid: artistMbid ?? "",
             artistName: artistName ?? "",
             artistTmid: artistTmid.flatMap { "\($0)" } ?? "",
@@ -119,8 +114,8 @@ public final class SetlistFmWrapper {
                       pageNumber: Int = 1,
                       state: String? = nil,
                       stateCode: String? = nil,
-                      _ completion: @escaping (Result<FMCitiesResult>) -> ()) {
-        let requestModel: SetlistFmRequestModel = SearchCitiesModel(
+                      _ completion: @escaping (Result<FMCitiesResult, FMError>) -> ()) {
+        let requestModel: SetlistFMRequestModel = SearchCitiesModel(
             country: country ?? "",
             name: name ?? "",
             p: pageNumber,
@@ -133,8 +128,8 @@ public final class SetlistFmWrapper {
     
     /// Get a complete list of all supported countries
     /// - Parameter completion: A callback that returns the requested list of countries as an `FMCountriesResult`
-    func searchCountries(_ completion: @escaping (Result<FMCountriesResult>) -> ()) {
-        let requestModel: SetlistFmRequestModel = SearchCountriesModel()
+    func searchCountries(_ completion: @escaping (Result<FMCountriesResult, FMError>) -> ()) {
+        let requestModel: SetlistFMRequestModel = SearchCountriesModel()
         fmRequest.request(requestModel) { completion($0) }
     }
     
@@ -173,8 +168,8 @@ public final class SetlistFmWrapper {
                         venueId: String? = nil,
                         venueName: String? = nil,
                         year: String? = nil,
-                        _ completion: @escaping (Result<FMSetlistsResult>) -> ()) {
-        let requestModel: SetlistFmRequestModel = SearchSetlistsModel(
+                        _ completion: @escaping (Result<FMSetlistsResult, FMError>) -> ()) {
+        let requestModel: SetlistFMRequestModel = SearchSetlistsModel(
             artistMbid: artistMbid ?? "",
             artistName: artistName ?? "",
             artistTmid: artistTmid.flatMap { "\($0)" } ?? "",
@@ -182,7 +177,7 @@ public final class SetlistFmWrapper {
             cityName: cityName ?? "",
             countryCode: countryCode ?? "",
             date: date ?? "",
-            lastFm: lastFM ?? "",
+            lastFM: lastFM ?? "",
             lastUpdated: lastUpdated ?? "",
             p: pageNumber,
             state: state ?? "",
@@ -212,8 +207,8 @@ public final class SetlistFmWrapper {
                       pageNumber: Int = 1,
                       state: String? = nil,
                       stateCode: String? = nil,
-                      _ completion: @escaping (Result<FMVenuesResult>) -> ()) {
-        let requestModel: SetlistFmRequestModel = SearchVenuesModel(
+                      _ completion: @escaping (Result<FMVenuesResult, FMError>) -> ()) {
+        let requestModel: SetlistFMRequestModel = SearchVenuesModel(
             cityId: cityId ?? "",
             cityName: cityName ?? "",
             country: country ?? "",
@@ -231,8 +226,8 @@ public final class SetlistFmWrapper {
     /// you'll get the current version.
     /// - Parameter setlistId: The setlist id
     /// - Parameter completion: A callback that returns the requested setlist as an `FMSetlist`
-    func getSetlist(setlistId: String, _ completion: @escaping (Result<FMSetlist>) -> ()) {
-        let requestModel: SetlistFmRequestModel = GetSetlistModel(setlistId: setlistId)
+    func getSetlist(setlistId: String, _ completion: @escaping (Result<FMSetlist, FMError>) -> ()) {
+        let requestModel: SetlistFMRequestModel = GetSetlistModel(setlistId: setlistId)
         fmRequest.request(requestModel) { completion($0) }
     }
     
@@ -242,16 +237,16 @@ public final class SetlistFmWrapper {
     /// you'll get the same version as last time.
     /// - Parameter versionId: The version id
     /// - Parameter completion: A callback that returns the requested setlist version as an `FMSetlist`
-    func getSetlistVersion(versionId: String, _ completion: @escaping (Result<FMSetlist>) -> ()) {
-        let requestModel: SetlistFmRequestModel = GetSetlistVersionModel(versionId: versionId)
+    func getSetlistVersion(versionId: String, _ completion: @escaping (Result<FMSetlist, FMError>) -> ()) {
+        let requestModel: SetlistFMRequestModel = GetSetlistVersionModel(versionId: versionId)
         fmRequest.request(requestModel) { completion($0) }
     }
     
     /// Get a user by userId
     /// - Parameter userId: The user's userId
     /// - Parameter completion: A callback that returns the requested user as an `FMUser`
-    func getUser(userId: String, _ completion: @escaping (Result<FMUser>) -> ()) {
-        let requestModel: SetlistFmRequestModel = GetUserModel(userId: userId)
+    func getUser(userId: String, _ completion: @escaping (Result<FMUser, FMError>) -> ()) {
+        let requestModel: SetlistFMRequestModel = GetUserModel(userId: userId)
         fmRequest.request(requestModel) { completion($0) }
     }
     
@@ -259,8 +254,8 @@ public final class SetlistFmWrapper {
     /// - Parameter userId: The user's userId
     /// - Parameter pageNumber: The number of the result page
     /// - Parameter completion: A callback that returns the requested user's attended setlists as an `FMSetlistsResult`
-    func getUserAttendedSetlists(userId: String, pageNumber: Int = 1, _ completion: @escaping (Result<FMSetlistsResult>) -> ()) {
-        let requestModel: SetlistFmRequestModel = GetUserAttendedModel(userId: userId, p: pageNumber)
+    func getUserAttendedSetlists(userId: String, pageNumber: Int = 1, _ completion: @escaping (Result<FMSetlistsResult, FMError>) -> ()) {
+        let requestModel: SetlistFMRequestModel = GetUserAttendedModel(userId: userId, p: pageNumber)
         fmRequest.request(requestModel) { completion($0) }
     }
     
@@ -268,16 +263,16 @@ public final class SetlistFmWrapper {
     /// - Parameter userId: The user's userId
     /// - Parameter pageNumber: The number of the result page
     /// - Parameter completion: A callback that returns the requested user's edited setlists as an `FMSetlistsResult`
-    func getUserEditedSetlists(userId: String, pageNumber: Int = 1, _ completion: @escaping (Result<FMSetlistsResult>) -> ()) {
-        let requestModel: SetlistFmRequestModel = GetUserEditedModel(userId: userId, p: pageNumber)
+    func getUserEditedSetlists(userId: String, pageNumber: Int = 1, _ completion: @escaping (Result<FMSetlistsResult, FMError>) -> ()) {
+        let requestModel: SetlistFMRequestModel = GetUserEditedModel(userId: userId, p: pageNumber)
         fmRequest.request(requestModel) { completion($0) }
     }
     
     /// Get a venue by its unique id
     /// - Parameter venueId: The venue's id
     /// - Parameter completion: A callback that returns the requested venue as an `FMVenue`
-    func getVenue(venueId: String, _ completion: @escaping (Result<FMVenue>) -> ()) {
-        let requestModel: SetlistFmRequestModel = GetVenueModel(venueId: venueId)
+    func getVenue(venueId: String, _ completion: @escaping (Result<FMVenue, FMError>) -> ()) {
+        let requestModel: SetlistFMRequestModel = GetVenueModel(venueId: venueId)
         fmRequest.request(requestModel) { completion($0) }
     }
     
@@ -285,8 +280,8 @@ public final class SetlistFmWrapper {
     /// - Parameter venueId: The venue's id
     /// - Parameter pageNumber: The number of the result page
     /// - Parameter completion: A callback that returns the requested venue's setlists as an `FMSetlistsResult`
-    func getVenueSetlists(venueId: String, pageNumber: Int = 1, _ completion: @escaping (Result<FMSetlistsResult>) -> ()) {
-        let requestModel: SetlistFmRequestModel = GetVenueSetlistsModel(venueId: venueId, p: pageNumber)
+    func getVenueSetlists(venueId: String, pageNumber: Int = 1, _ completion: @escaping (Result<FMSetlistsResult, FMError>) -> ()) {
+        let requestModel: SetlistFMRequestModel = GetVenueSetlistsModel(venueId: venueId, p: pageNumber)
         fmRequest.request(requestModel) { completion($0) }
     }
 }

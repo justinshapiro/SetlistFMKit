@@ -1,6 +1,6 @@
 //
 //  URLSessionProtocolTests.swift
-//  SetlistFmKitTests
+//  SetlistFMKitTests
 //
 //  Created by Justin Shapiro on 9/10/18.
 //  Copyright © 2018 Justin Shapiro. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 import Foundation
-@testable import SetlistFmKit
+@testable import SetlistFMKit
 
 final class URLSessionProtocolTests: XCTestCase {
     
