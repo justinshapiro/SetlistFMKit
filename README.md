@@ -46,7 +46,7 @@ This API wrapper is capable of returning results in up to 8 languages, as these 
 To get results in any of these languages, pass in their associated enum case in the initializer of the wrapper. For example:
 
 ```swift
-let wrapper = SetlistFmWrapper(apiKey: "your-api-key", language: .portugese)
+let wrapper = SetlistFMWrapper(apiKey: "your-api-key", language: .portugese)
 ```
 
 ### Documentation
