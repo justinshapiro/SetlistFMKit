@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		C5BEE66F2147771200ED3039 /* URLSessionProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BEE66E2147771200ED3039 /* URLSessionProtocolTests.swift */; };
-		C5E27071211FE45E00E12E0D /* SetlistFmKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E27067211FE45E00E12E0D /* SetlistFmKit.framework */; };
-		C5E27076211FE45E00E12E0D /* SetlistFmKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E27075211FE45E00E12E0D /* SetlistFmKitTests.swift */; };
-		C5E27078211FE45E00E12E0D /* SetlistFmKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E2706A211FE45E00E12E0D /* SetlistFmKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5E27084211FE5BB00E12E0D /* SetlistFmResponseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E27083211FE5BB00E12E0D /* SetlistFmResponseModels.swift */; };
-		C5E27086211FF39900E12E0D /* SetlistFmRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E27085211FF39900E12E0D /* SetlistFmRequest.swift */; };
+		C5E27071211FE45E00E12E0D /* SetlistFMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E27067211FE45E00E12E0D /* SetlistFMKit.framework */; };
+		C5E27076211FE45E00E12E0D /* SetlistFMKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E27075211FE45E00E12E0D /* SetlistFMKitTests.swift */; };
+		C5E27078211FE45E00E12E0D /* SetlistFMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E2706A211FE45E00E12E0D /* SetlistFMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5E27084211FE5BB00E12E0D /* SetlistFMResponseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E27083211FE5BB00E12E0D /* SetlistFMResponseModels.swift */; };
+		C5E27086211FF39900E12E0D /* SetlistFMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E27085211FF39900E12E0D /* SetlistFMRequest.swift */; };
 		C5F2BFC7213F98300099AEAC /* getCityWithGeoId.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F2BFC6213F98300099AEAC /* getCityWithGeoId.json */; };
 		C5F2BFC92140B0F80099AEAC /* searchArtists.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F2BFC82140B0F70099AEAC /* searchArtists.json */; };
 		C5F2BFCB2140B9E00099AEAC /* searchCities.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F2BFCA2140B9E00099AEAC /* searchCities.json */; };
@@ -30,8 +30,8 @@
 		C5F4BA8221378C0400D48CE6 /* MockNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F4BA8121378C0400D48CE6 /* MockNetwork.swift */; };
 		C5F4BA842137B09E00D48CE6 /* getArtistWithMbid.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F4BA832137B09E00D48CE6 /* getArtistWithMbid.json */; };
 		C5F4BA872137C44400D48CE6 /* getArtistWithMbidSetlists.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F4BA862137C44400D48CE6 /* getArtistWithMbidSetlists.json */; };
-		C5F6F6EF21227C2D0071766D /* SetlistFmWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F6F6EE21227C2D0071766D /* SetlistFmWrapper.swift */; };
-		C5F6F6F121227E840071766D /* SetlistFmRequestModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F6F6F021227E840071766D /* SetlistFmRequestModels.swift */; };
+		C5F6F6EF21227C2D0071766D /* SetlistFMWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F6F6EE21227C2D0071766D /* SetlistFMWrapper.swift */; };
+		C5F6F6F121227E840071766D /* SetlistFMRequestModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F6F6F021227E840071766D /* SetlistFMRequestModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,14 +46,14 @@
 
 /* Begin PBXFileReference section */
 		C5BEE66E2147771200ED3039 /* URLSessionProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocolTests.swift; sourceTree = "<group>"; };
-		C5E27067211FE45E00E12E0D /* SetlistFmKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SetlistFmKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5E2706A211FE45E00E12E0D /* SetlistFmKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetlistFmKit.h; sourceTree = "<group>"; };
+		C5E27067211FE45E00E12E0D /* SetlistFMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SetlistFMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5E2706A211FE45E00E12E0D /* SetlistFMKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetlistFMKit.h; sourceTree = "<group>"; };
 		C5E2706B211FE45E00E12E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5E27070211FE45E00E12E0D /* SetlistFmKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SetlistFmKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5E27075211FE45E00E12E0D /* SetlistFmKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetlistFmKitTests.swift; sourceTree = "<group>"; };
+		C5E27070211FE45E00E12E0D /* SetlistFMKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SetlistFMKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5E27075211FE45E00E12E0D /* SetlistFMKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetlistFMKitTests.swift; sourceTree = "<group>"; };
 		C5E27077211FE45E00E12E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5E27083211FE5BB00E12E0D /* SetlistFmResponseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetlistFmResponseModels.swift; sourceTree = "<group>"; };
-		C5E27085211FF39900E12E0D /* SetlistFmRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetlistFmRequest.swift; sourceTree = "<group>"; };
+		C5E27083211FE5BB00E12E0D /* SetlistFMResponseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetlistFMResponseModels.swift; sourceTree = "<group>"; };
+		C5E27085211FF39900E12E0D /* SetlistFMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetlistFMRequest.swift; sourceTree = "<group>"; };
 		C5F2BFC6213F98300099AEAC /* getCityWithGeoId.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getCityWithGeoId.json; sourceTree = "<group>"; };
 		C5F2BFC82140B0F70099AEAC /* searchArtists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = searchArtists.json; sourceTree = "<group>"; };
 		C5F2BFCA2140B9E00099AEAC /* searchCities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = searchCities.json; sourceTree = "<group>"; };
@@ -71,8 +71,8 @@
 		C5F4BA8121378C0400D48CE6 /* MockNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetwork.swift; sourceTree = "<group>"; };
 		C5F4BA832137B09E00D48CE6 /* getArtistWithMbid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getArtistWithMbid.json; sourceTree = "<group>"; };
 		C5F4BA862137C44400D48CE6 /* getArtistWithMbidSetlists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getArtistWithMbidSetlists.json; sourceTree = "<group>"; };
-		C5F6F6EE21227C2D0071766D /* SetlistFmWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetlistFmWrapper.swift; sourceTree = "<group>"; };
-		C5F6F6F021227E840071766D /* SetlistFmRequestModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetlistFmRequestModels.swift; sourceTree = "<group>"; };
+		C5F6F6EE21227C2D0071766D /* SetlistFMWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetlistFMWrapper.swift; sourceTree = "<group>"; };
+		C5F6F6F021227E840071766D /* SetlistFMRequestModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetlistFMRequestModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5E27071211FE45E00E12E0D /* SetlistFmKit.framework in Frameworks */,
+				C5E27071211FE45E00E12E0D /* SetlistFMKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,8 +97,8 @@
 		C5E2705D211FE45E00E12E0D = {
 			isa = PBXGroup;
 			children = (
-				C5E27069211FE45E00E12E0D /* SetlistFmKit */,
-				C5E27074211FE45E00E12E0D /* SetlistFmKitTests */,
+				C5E27069211FE45E00E12E0D /* SetlistFMKit */,
+				C5E27074211FE45E00E12E0D /* SetlistFMKitTests */,
 				C5E27068211FE45E00E12E0D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,36 +106,36 @@
 		C5E27068211FE45E00E12E0D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C5E27067211FE45E00E12E0D /* SetlistFmKit.framework */,
-				C5E27070211FE45E00E12E0D /* SetlistFmKitTests.xctest */,
+				C5E27067211FE45E00E12E0D /* SetlistFMKit.framework */,
+				C5E27070211FE45E00E12E0D /* SetlistFMKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C5E27069211FE45E00E12E0D /* SetlistFmKit */ = {
+		C5E27069211FE45E00E12E0D /* SetlistFMKit */ = {
 			isa = PBXGroup;
 			children = (
-				C5E2706A211FE45E00E12E0D /* SetlistFmKit.h */,
+				C5E2706A211FE45E00E12E0D /* SetlistFMKit.h */,
 				C5E2706B211FE45E00E12E0D /* Info.plist */,
-				C5E27083211FE5BB00E12E0D /* SetlistFmResponseModels.swift */,
-				C5F6F6F021227E840071766D /* SetlistFmRequestModels.swift */,
-				C5E27085211FF39900E12E0D /* SetlistFmRequest.swift */,
-				C5F6F6EE21227C2D0071766D /* SetlistFmWrapper.swift */,
+				C5E27083211FE5BB00E12E0D /* SetlistFMResponseModels.swift */,
+				C5F6F6F021227E840071766D /* SetlistFMRequestModels.swift */,
+				C5E27085211FF39900E12E0D /* SetlistFMRequest.swift */,
+				C5F6F6EE21227C2D0071766D /* SetlistFMWrapper.swift */,
 				C5F4BA7F213786A600D48CE6 /* URLSessionProtocol.swift */,
 			);
-			path = SetlistFmKit;
+			path = SetlistFMKit;
 			sourceTree = "<group>";
 		};
-		C5E27074211FE45E00E12E0D /* SetlistFmKitTests */ = {
+		C5E27074211FE45E00E12E0D /* SetlistFMKitTests */ = {
 			isa = PBXGroup;
 			children = (
 				C5F4BA7E2137819300D48CE6 /* Mock Responses */,
-				C5E27075211FE45E00E12E0D /* SetlistFmKitTests.swift */,
+				C5E27075211FE45E00E12E0D /* SetlistFMKitTests.swift */,
 				C5BEE66E2147771200ED3039 /* URLSessionProtocolTests.swift */,
 				C5E27077211FE45E00E12E0D /* Info.plist */,
 				C5F4BA8121378C0400D48CE6 /* MockNetwork.swift */,
 			);
-			path = SetlistFmKitTests;
+			path = SetlistFMKitTests;
 			sourceTree = "<group>";
 		};
 		C5F4BA7E2137819300D48CE6 /* Mock Responses */ = {
@@ -167,16 +167,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5E27078211FE45E00E12E0D /* SetlistFmKit.h in Headers */,
+				C5E27078211FE45E00E12E0D /* SetlistFMKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C5E27066211FE45E00E12E0D /* SetlistFmKit */ = {
+		C5E27066211FE45E00E12E0D /* SetlistFMKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5E2707B211FE45E00E12E0D /* Build configuration list for PBXNativeTarget "SetlistFmKit" */;
+			buildConfigurationList = C5E2707B211FE45E00E12E0D /* Build configuration list for PBXNativeTarget "SetlistFMKit" */;
 			buildPhases = (
 				C5E27062211FE45E00E12E0D /* Headers */,
 				C5E27063211FE45E00E12E0D /* Sources */,
@@ -187,14 +187,14 @@
 			);
 			dependencies = (
 			);
-			name = SetlistFmKit;
+			name = SetlistFMKit;
 			productName = SetlistFmKit;
-			productReference = C5E27067211FE45E00E12E0D /* SetlistFmKit.framework */;
+			productReference = C5E27067211FE45E00E12E0D /* SetlistFMKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C5E2706F211FE45E00E12E0D /* SetlistFmKitTests */ = {
+		C5E2706F211FE45E00E12E0D /* SetlistFMKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5E2707E211FE45E00E12E0D /* Build configuration list for PBXNativeTarget "SetlistFmKitTests" */;
+			buildConfigurationList = C5E2707E211FE45E00E12E0D /* Build configuration list for PBXNativeTarget "SetlistFMKitTests" */;
 			buildPhases = (
 				C5E2706C211FE45E00E12E0D /* Sources */,
 				C5E2706D211FE45E00E12E0D /* Frameworks */,
@@ -205,9 +205,9 @@
 			dependencies = (
 				C5E27073211FE45E00E12E0D /* PBXTargetDependency */,
 			);
-			name = SetlistFmKitTests;
+			name = SetlistFMKitTests;
 			productName = SetlistFmKitTests;
-			productReference = C5E27070211FE45E00E12E0D /* SetlistFmKitTests.xctest */;
+			productReference = C5E27070211FE45E00E12E0D /* SetlistFMKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -229,20 +229,21 @@
 					};
 				};
 			};
-			buildConfigurationList = C5E27061211FE45E00E12E0D /* Build configuration list for PBXProject "SetlistFmKit" */;
+			buildConfigurationList = C5E27061211FE45E00E12E0D /* Build configuration list for PBXProject "SetlistFMKit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = C5E2705D211FE45E00E12E0D;
 			productRefGroup = C5E27068211FE45E00E12E0D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C5E27066211FE45E00E12E0D /* SetlistFmKit */,
-				C5E2706F211FE45E00E12E0D /* SetlistFmKitTests */,
+				C5E27066211FE45E00E12E0D /* SetlistFMKit */,
+				C5E2706F211FE45E00E12E0D /* SetlistFMKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,10 +286,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5F4BA80213786A600D48CE6 /* URLSessionProtocol.swift in Sources */,
-				C5E27084211FE5BB00E12E0D /* SetlistFmResponseModels.swift in Sources */,
-				C5F6F6EF21227C2D0071766D /* SetlistFmWrapper.swift in Sources */,
-				C5E27086211FF39900E12E0D /* SetlistFmRequest.swift in Sources */,
-				C5F6F6F121227E840071766D /* SetlistFmRequestModels.swift in Sources */,
+				C5E27084211FE5BB00E12E0D /* SetlistFMResponseModels.swift in Sources */,
+				C5F6F6EF21227C2D0071766D /* SetlistFMWrapper.swift in Sources */,
+				C5E27086211FF39900E12E0D /* SetlistFMRequest.swift in Sources */,
+				C5F6F6F121227E840071766D /* SetlistFMRequestModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5F4BA8221378C0400D48CE6 /* MockNetwork.swift in Sources */,
-				C5E27076211FE45E00E12E0D /* SetlistFmKitTests.swift in Sources */,
+				C5E27076211FE45E00E12E0D /* SetlistFMKitTests.swift in Sources */,
 				C5BEE66F2147771200ED3039 /* URLSessionProtocolTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,7 +308,7 @@
 /* Begin PBXTargetDependency section */
 		C5E27073211FE45E00E12E0D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C5E27066211FE45E00E12E0D /* SetlistFmKit */;
+			target = C5E27066211FE45E00E12E0D /* SetlistFMKit */;
 			targetProxy = C5E27072211FE45E00E12E0D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -446,18 +447,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SetlistFmKit/Info.plist;
+				INFOPLIST_FILE = SetlistFMKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shapiro.SetlistFmKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shapiro.SetlistFMKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -473,17 +474,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SetlistFmKit/Info.plist;
+				INFOPLIST_FILE = SetlistFMKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shapiro.SetlistFmKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shapiro.SetlistFMKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -494,7 +495,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9W4EAV7NE7;
-				INFOPLIST_FILE = SetlistFmKitTests/Info.plist;
+				INFOPLIST_FILE = SetlistFMKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -502,7 +503,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shapiro.SetlistFmKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -513,7 +514,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9W4EAV7NE7;
-				INFOPLIST_FILE = SetlistFmKitTests/Info.plist;
+				INFOPLIST_FILE = SetlistFMKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -521,7 +522,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shapiro.SetlistFmKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -529,7 +530,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C5E27061211FE45E00E12E0D /* Build configuration list for PBXProject "SetlistFmKit" */ = {
+		C5E27061211FE45E00E12E0D /* Build configuration list for PBXProject "SetlistFMKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5E27079211FE45E00E12E0D /* Debug */,
@@ -538,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5E2707B211FE45E00E12E0D /* Build configuration list for PBXNativeTarget "SetlistFmKit" */ = {
+		C5E2707B211FE45E00E12E0D /* Build configuration list for PBXNativeTarget "SetlistFMKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5E2707C211FE45E00E12E0D /* Debug */,
@@ -547,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5E2707E211FE45E00E12E0D /* Build configuration list for PBXNativeTarget "SetlistFmKitTests" */ = {
+		C5E2707E211FE45E00E12E0D /* Build configuration list for PBXNativeTarget "SetlistFMKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5E2707F211FE45E00E12E0D /* Debug */,

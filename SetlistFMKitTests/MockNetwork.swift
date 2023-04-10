@@ -1,12 +1,12 @@
 //
 //  MockNetwork.swift
-//  SetlistFmKitTests
+//  SetlistFMKitTests
 //
 //  Created by Justin Shapiro on 8/29/18.
 //  Copyright © 2018 Justin Shapiro. All rights reserved.
 //
 
-@testable import SetlistFmKit
+@testable import SetlistFMKit
 
 final class MockNetwork: URLSessionProtocol {
     private var mockFilename: String?

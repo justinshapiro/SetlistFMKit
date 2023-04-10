@@ -1,13 +1,13 @@
 //
-//  SetlistFmRequest.swift
-//  SetlistFmKit
+//  SetlistFMRequest.swift
+//  SetlistFMKit
 //
 //  Created by Justin Shapiro on 8/11/18.
 //  Copyright © 2018 Justin Shapiro. All rights reserved.
 //
 
 /// A protocol specifying the required properties of an API-bound request model
-protocol SetlistFmRequestModel {
+protocol SetlistFMRequestModel {
     /// The primary endpoint following the base url, not including any query parameters
     var endpoint: String { get }
     
@@ -17,9 +17,9 @@ protocol SetlistFmRequestModel {
 
 /// Internal helper class of the wrapper which contains a `request` method
 /// that enables successful calls to the Setlist.fm API
-final class SetlistFmRequest {
-    typealias Result = SetlistFmWrapper.Result
-    typealias SupportedLanguage = SetlistFmWrapper.SupportedLanguage
+final class SetlistFMRequest {
+    typealias FMError = SetlistFMWrapper.FMError
+    typealias SupportedLanguage = SetlistFMWrapper.SupportedLanguage
     private let baseURL: String = "https://api.setlist.fm/rest/1.0/"
     private let apiKey: String
     private let language: SupportedLanguage
@@ -35,10 +35,10 @@ final class SetlistFmRequest {
         self.session = session
     }
     
-    /// Executes an HTTP request using an endpoint and parameters defined in a SetlistFmRequestModel
+    /// Executes an HTTP request using an endpoint and parameters defined in a SetlistFMRequestModel
     /// - Parameter model: A model that contains the desired endpoint address and parameters
     /// - Parameter completion: The callback which contains the requested result
-    func request<T: Decodable>(_ model: SetlistFmRequestModel, _ completion: @escaping (Result<T>) -> ()) {
+    func request<T: Decodable>(_ model: SetlistFMRequestModel, _ completion: @escaping (Result<T, FMError>) -> ()) {
         guard var components = URLComponents(string: model.endpoint) else {
             completion(.failure(.init(code: 0, message: "Provided endpoint is not valid")))
             return
@@ -65,16 +65,16 @@ final class SetlistFmRequest {
                 error == nil
             else {
                 let statusCode = (response as? HTTPURLResponse)?.statusCode
-                let result = Result<T>.failure(.init(code: statusCode ?? -1, message: error?.localizedDescription))
+                let result = Result<T, FMError>.failure(.init(code: statusCode ?? -1, message: error?.localizedDescription))
                 completion(result)
                 return
             }
             
             do {
                 let data = try JSONDecoder().decode(T.self, from: data)
-                completion(Result<T>.success(data))
+                completion(Result<T, FMError>.success(data))
             } catch(let error) {
-                let result = Result<T>.failure(.init(code: requestResponse.statusCode, message: error.localizedDescription))
+                let result = Result<T, FMError>.failure(.init(code: requestResponse.statusCode, message: error.localizedDescription))
                 completion(result)
             }
         }

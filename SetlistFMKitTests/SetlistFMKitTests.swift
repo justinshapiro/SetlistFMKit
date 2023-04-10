@@ -1,19 +1,19 @@
 //
-//  SetlistFmKitTests.swift
-//  SetlistFmKitTests
+//  SetlistFMKitTests.swift
+//  SetlistFMKitTests
 //
 //  Created by Justin Shapiro on 8/11/18.
 //  Copyright © 2018 Justin Shapiro. All rights reserved.
 //
 
 import XCTest
-@testable import SetlistFmKit
+@testable import SetlistFMKit
 
-final class SetlistFmKitTests: XCTestCase {
+final class SetlistFMKitTests: XCTestCase {
     
     // MARK: - Properties
     
-    private var wrapper: SetlistFmWrapper!
+    private var wrapper: SetlistFMWrapper!
     private let mockNetwork = MockNetwork()
     
     // MARK: - Overrides
@@ -21,7 +21,7 @@ final class SetlistFmKitTests: XCTestCase {
     override func setUp() {
         super.setUp()
         mockNetwork.reset()
-        wrapper = SetlistFmWrapper(apiKey: "test-key", language: .english, session: mockNetwork)
+        wrapper = SetlistFMWrapper(apiKey: "test-key", language: .english, session: mockNetwork)
     }
     
     // MARK: - Test methods
@@ -107,7 +107,7 @@ final class SetlistFmKitTests: XCTestCase {
     
     private func testSearchArtists(option: TestSearchArtistsOption) {
         let asyncExpectation = expectation(description: "Get data from the search/artists endpoint")
-        let responseHandler: (SetlistFmWrapper.Result<FMArtistsResult>) -> () = {
+        let responseHandler: (Result<FMArtistsResult, SetlistFMWrapper.FMError>) -> () = {
             asyncExpectation.fulfill()
             
             if case .success(let artistsResponse) = $0 {
@@ -149,7 +149,7 @@ final class SetlistFmKitTests: XCTestCase {
     private func testSearchCities(option: TestSearchCitiesOption) {
         let asyncExpectation = expectation(description: "Get data from the search/cities endpoint")
         
-        let responseHandler: (SetlistFmWrapper.Result<FMCitiesResult>) -> () = {
+        let responseHandler: (Result<FMCitiesResult, SetlistFMWrapper.FMError>) -> () = {
             asyncExpectation.fulfill()
             
             if case .success(let citiesResponse) = $0 {
@@ -215,7 +215,7 @@ final class SetlistFmKitTests: XCTestCase {
     
     private func testSearchSetlists(option: TestSearchSetlistsOption) {
         let asyncExpectation = expectation(description: "Get data from the search/setlists endpoint")
-        let responseHandler: (SetlistFmWrapper.Result<FMSetlistsResult>) -> () = {
+        let responseHandler: (Result<FMSetlistsResult, SetlistFMWrapper.FMError>) -> () = {
             asyncExpectation.fulfill()
             
             if case .success(let setlistsResponse) = $0 {
@@ -256,7 +256,7 @@ final class SetlistFmKitTests: XCTestCase {
     
     private func testSearchVenues(option: TestSearchVenuesOption) {
         let asyncExpectation = expectation(description: "Get data from the search/venues endpoint")
-        let responseHandler: (SetlistFmWrapper.Result<FMVenuesResult>) -> () = {
+        let responseHandler: (Result<FMVenuesResult, SetlistFMWrapper.FMError>) -> () = {
             asyncExpectation.fulfill()
             
             if case .success(let venuesResponse) = $0 {
@@ -345,7 +345,7 @@ final class SetlistFmKitTests: XCTestCase {
             if case .success(let user) = $0 {
                 let expectedUser = FMUser(userId: "gloryfades",
                                           fullname: "Justin",
-                                          lastFm: nil,
+                                          lastFM: nil,
                                           mySpace: nil,
                                           twitter: nil,
                                           fickr: nil,
@@ -465,16 +465,16 @@ final class SetlistFmKitTests: XCTestCase {
         }
     }
     
-    func testFailedSetlistFmRequest() {
-        struct FakeRequestModel: SetlistFmRequestModel, Decodable {
+    func testFailedSetlistFMRequest() {
+        struct FakeRequestModel: SetlistFMRequestModel, Decodable {
             var endpoint: String = "http://fakeaddress:-80"
             var queryParameters: [String : String]?
         }
         
         let asyncExpectation = expectation(description: "Make a bad, fake request")
         let fakeRequestModel = FakeRequestModel()
-        let requester = SetlistFmRequest(apiKey: "", language: .english)
-        requester.request(fakeRequestModel) { (result: SetlistFmWrapper.Result<FakeRequestModel>) -> () in
+        let requester = SetlistFMRequest(apiKey: "", language: .english)
+        requester.request(fakeRequestModel) { (result: Result<FakeRequestModel, SetlistFMWrapper.FMError>) -> () in
             asyncExpectation.fulfill()
             
             if case .success = result {
@@ -488,14 +488,14 @@ final class SetlistFmKitTests: XCTestCase {
     }
     
     func testFailedResponseParsing() {
-        struct RequestModel: SetlistFmRequestModel, Decodable {
+        struct RequestModel: SetlistFMRequestModel, Decodable {
             var endpoint: String = "search/countries"
             var queryParameters: [String : String]?
         }
         
         let asyncExpectation = expectation(description: "Test a real network response using URLSession")
-        let requester = SetlistFmRequest(apiKey: "", language: .english)
-        requester.request(RequestModel()) { (result: SetlistFmWrapper.Result<RequestModel>) -> () in
+        let requester = SetlistFMRequest(apiKey: "", language: .english)
+        requester.request(RequestModel()) { (result: Result<RequestModel, SetlistFMWrapper.FMError>) -> () in
             asyncExpectation.fulfill()
             
             if case .success = result {

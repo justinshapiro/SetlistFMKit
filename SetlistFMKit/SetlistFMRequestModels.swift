@@ -1,43 +1,58 @@
 //
-//  SetlistFmRequestModels.swift
-//  SetlistFmKit
+//  SetlistFMRequestModels.swift
+//  SetlistFMKit
 //
 //  Created by Justin Shapiro on 8/13/18.
 //  Copyright © 2018 Justin Shapiro. All rights reserved.
 //
 
 /// The request model for requests to the /artist/{mbid} endpoint
-struct GetArtistModel: SetlistFmRequestModel {
+struct GetArtistModel: SetlistFMRequestModel {
     /// A Musicbrainz MBID, e.g. 0bfba3d3-6a04-4779-bb0a-df07df5b0558
     let mbid: String
     
-    var endpoint: String { return "artist/\(mbid)" }
-    var queryParameters: [String : String]? { return nil }
+    var endpoint: String {
+        return "artist/\(mbid)"
+    }
+    
+    var queryParameters: [String : String]? {
+        return nil
+    }
 }
 
 /// The request model for requests to the /artist/{mbid}/setlists endpoint
-struct GetArtistSetlistsModel: SetlistFmRequestModel {
+struct GetArtistSetlistsModel: SetlistFMRequestModel {
     /// The Musicbrainz MBID of the artist
     let mbid: String
     
     /// The number of the result page
     let p: Int
     
-    var endpoint: String { return "artist/\(mbid)/setlists" }
-    var queryParameters: [String : String]? { return ["p": "\(p)"] }
+    var endpoint: String {
+        return "artist/\(mbid)/setlists"
+    }
+    
+    var queryParameters: [String : String]? {
+        return ["p": "\(p)"]
+    }
 }
 
 /// The request model for requests to the /city/{geoId} endpoint
-struct GetCityModel: SetlistFmRequestModel {
+struct GetCityModel: SetlistFMRequestModel {
     /// The city's geoId
     let geoId: String
     
-    var endpoint: String { return "city/\(geoId)" }
-    var queryParameters: [String : String]? { return nil}
+    var endpoint: String {
+        return "city/\(geoId)"
+    }
+    
+    var queryParameters: [String : String]? {
+        return nil
+    }
 }
 
 /// The request model for requests to the /search/artists endpoint
-struct SearchArtistsModel: SetlistFmRequestModel {
+struct SearchArtistsModel: SetlistFMRequestModel {
     /// The artist's Musicbrainz Identifier (mbid)
     let artistMbid: String
     
@@ -53,7 +68,10 @@ struct SearchArtistsModel: SetlistFmRequestModel {
     /// The sort of the result, either sortName (default) or relevance
     let sort: String
     
-    var endpoint: String { return "search/artists" }
+    var endpoint: String {
+        return "search/artists"
+    }
+    
     var queryParameters: [String : String]? {
         return [
             "artistMbid": artistMbid,
@@ -65,7 +83,7 @@ struct SearchArtistsModel: SetlistFmRequestModel {
 }
 
 /// The request model for requests to the /search/cities endpoint
-struct SearchCitiesModel: SetlistFmRequestModel {
+struct SearchCitiesModel: SetlistFMRequestModel {
     /// The city's country
     let country: String
     
@@ -81,7 +99,10 @@ struct SearchCitiesModel: SetlistFmRequestModel {
     /// State code the city lies in
     let stateCode: String
     
-    var endpoint: String { return "search/cities" }
+    var endpoint: String {
+        return "search/cities"
+    }
+    
     var queryParameters: [String : String]? {
         return [
             "country": country,
@@ -94,13 +115,18 @@ struct SearchCitiesModel: SetlistFmRequestModel {
 }
 
 /// The request model for requests to the /search/countries endpoint
-struct SearchCountriesModel: SetlistFmRequestModel {
-    var endpoint: String { return "search/countries"}
-    var queryParameters: [String : String]? { return nil }
+struct SearchCountriesModel: SetlistFMRequestModel {
+    var endpoint: String {
+        return "search/countries"
+    }
+    
+    var queryParameters: [String : String]? {
+        return nil
+    }
 }
 
 /// The request model for requests to the /search/setlists endpoint
-struct SearchSetlistsModel: SetlistFmRequestModel {
+struct SearchSetlistsModel: SetlistFMRequestModel {
     /// The artist's Musicbrainz Identifier (mbid)
     let artistMbid: String
     
@@ -123,7 +149,7 @@ struct SearchSetlistsModel: SetlistFmRequestModel {
     let date: String
     
     /// The event's Last.fm Event ID (deprecated)
-    let lastFm: String
+    let lastFM: String
     
     /// The date and time (UTC) when this setlist was last updated (format yyyyMMddHHmmss) -
     /// either edited or reverted. Search will return setlists that were updated on or after this date.
@@ -150,7 +176,10 @@ struct SearchSetlistsModel: SetlistFmRequestModel {
     /// The year of the event
     let year: String
     
-    var endpoint: String { return "search/setlists"}
+    var endpoint: String {
+        return "search/setlists"
+    }
+    
     var queryParameters: [String : String]? {
         return [
             "artistMbid": artistMbid,
@@ -160,7 +189,7 @@ struct SearchSetlistsModel: SetlistFmRequestModel {
             "cityName": cityName,
             "countryCode": countryCode,
             "date": date,
-            "lastFm": lastFm,
+            "lastFM": lastFM,
             "lastUpdated": lastUpdated,
             "p": "\(p)",
             "state": state,
@@ -174,7 +203,7 @@ struct SearchSetlistsModel: SetlistFmRequestModel {
 }
 
 /// The request model for requests to the /search/venues endpoint
-struct SearchVenuesModel: SetlistFmRequestModel {
+struct SearchVenuesModel: SetlistFMRequestModel {
     /// The city's geoId
     let cityId: String
     
@@ -196,7 +225,10 @@ struct SearchVenuesModel: SetlistFmRequestModel {
     /// The city's state code
     let stateCode: String
     
-    var endpoint: String { return "search/venues"}
+    var endpoint: String {
+        return "search/venues"
+    }
+    
     var queryParameters: [String : String]? {
         return [
             "cityId": cityId,
@@ -211,73 +243,108 @@ struct SearchVenuesModel: SetlistFmRequestModel {
 }
 
 /// The request model for requests to the /setlist/{setlistId} endpoint
-struct GetSetlistModel: SetlistFmRequestModel {
+struct GetSetlistModel: SetlistFMRequestModel {
     /// The setlist id
     let setlistId: String
     
-    var endpoint: String { return "setlist/\(setlistId)" }
-    var queryParameters: [String : String]? { return nil }
+    var endpoint: String {
+        return "setlist/\(setlistId)"
+    }
+    
+    var queryParameters: [String : String]? {
+        return nil
+    }
 }
 
 /// The request model for requests to the /setlist/version/{versionId} endpoint
-struct GetSetlistVersionModel: SetlistFmRequestModel {
+struct GetSetlistVersionModel: SetlistFMRequestModel {
     /// The version id
     let versionId: String
     
-    var endpoint: String { return "setlist/version/\(versionId)" }
-    var queryParameters: [String : String]? { return nil }
+    var endpoint: String {
+        return "setlist/version/\(versionId)"
+    }
+    
+    var queryParameters: [String : String]? {
+        return nil
+    }
 }
 
 /// The request model for requests to the /user/{userId} endpoint
-struct GetUserModel: SetlistFmRequestModel {
+struct GetUserModel: SetlistFMRequestModel {
     /// The user's userId
     let userId: String
     
-    var endpoint: String { return "user/\(userId)" }
-    var queryParameters: [String : String]? { return nil }
+    var endpoint: String {
+        return "user/\(userId)"
+    }
+    
+    var queryParameters: [String : String]? {
+        return nil
+    }
 }
 
 /// The request model for requests to the /user/{userId}/attended endpoint
-struct GetUserAttendedModel: SetlistFmRequestModel {
+struct GetUserAttendedModel: SetlistFMRequestModel {
     /// The user's userId
     let userId: String
     
     /// The number of the result page
     let p: Int
     
-    var endpoint: String { return "user/\(userId)/attended" }
-    var queryParameters: [String : String]? { return ["p": "\(p)"] }
+    var endpoint: String {
+        return "user/\(userId)/attended"
+    }
+    
+    var queryParameters: [String : String]? {
+        return ["p": "\(p)"]
+    }
 }
 
 /// The request model for requests to the /user/{userId}/edited endpoint
-struct GetUserEditedModel: SetlistFmRequestModel {
+struct GetUserEditedModel: SetlistFMRequestModel {
     /// The user's userId
     let userId: String
     
     /// The number of the result page
     let p: Int
     
-    var endpoint: String { return "user/\(userId)/edited" }
-    var queryParameters: [String : String]? { return ["p": "\(p)"] }
+    var endpoint: String {
+        return "user/\(userId)/edited"
+    }
+    
+    var queryParameters: [String : String]? {
+        return ["p": "\(p)"]
+    }
 }
 
 /// The request model for requests to the /venue/{venueId} endpoint
-struct GetVenueModel: SetlistFmRequestModel {
+struct GetVenueModel: SetlistFMRequestModel {
     /// The venue's id
     let venueId: String
     
-    var endpoint: String { return "venue/\(venueId)" }
-    var queryParameters: [String : String]? { return nil }
+    var endpoint: String {
+        return "venue/\(venueId)"
+    }
+    
+    var queryParameters: [String : String]? {
+        return nil
+    }
 }
 
 /// The request model for requests to the /user/{userId}/edited endpoint
-struct GetVenueSetlistsModel: SetlistFmRequestModel {
+struct GetVenueSetlistsModel: SetlistFMRequestModel {
     /// The venue's id
     let venueId: String
     
     /// The number of the result page
     let p: Int
     
-    var endpoint: String { return "user/\(venueId)/setlists" }
-    var queryParameters: [String : String]? { return ["p": "\(p)"] }
+    var endpoint: String {
+        return "user/\(venueId)/setlists"
+    }
+    
+    var queryParameters: [String : String]? {
+        return ["p": "\(p)"]
+    }
 }
