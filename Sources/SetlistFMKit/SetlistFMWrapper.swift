@@ -6,6 +6,8 @@
 //  Copyright © 2018 Justin Shapiro. All rights reserved.
 //
 
+import Foundation
+
 /// The object responsible for providing access to a set of methods that map directly to Setlist.fm API endpoints.
 /// Each object returned by the `completion` of the provided methods contains all the data returned from the corresponding endpoint.
 /// A built-in network implementation will handle contacting the API, requesting the data, and parsing it.

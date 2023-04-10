@@ -6,6 +6,7 @@
 //  Copyright © 2018 Justin Shapiro. All rights reserved.
 //
 
+import Foundation
 @testable import SetlistFMKit
 
 final class MockNetwork: URLSessionProtocol {
@@ -21,7 +22,7 @@ final class MockNetwork: URLSessionProtocol {
     
     func dataTask(with url: URLRequest, completionHandler: @escaping (Data?, URLResponse?, Error?) -> ()) -> URLSessionDataTaskProtocol {
         guard let mockFile = mockFilename,
-            let path = Bundle(for: type(of: self)).path(forResource: mockFile, ofType: "json"),
+              let path = Bundle.module.path(forResource: mockFile, ofType: "json"),
             let requestUrl = url.url,
             let data = try? Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe) else {
                 let response = HTTPURLResponse(url: URL(string: "http://www.setlist.fm")!, statusCode: 500, httpVersion: nil, headerFields: nil)
