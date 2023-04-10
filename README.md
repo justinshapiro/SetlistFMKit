@@ -6,8 +6,8 @@ This wrapper is intended to help you integrate data from Setlist.fm into your iO
 Although the default networking implementation for this wrapper uses `URLSession.shared`, you may specify your own networking implementation that this wrapper should use, as long as your networking implementation conforms to the wrapper's `URLSessionProtocol`.
 
 ### Requirements
-- Swift 5
-- Xcode 10
+- Swift 5.0 or greater
+- Xcode 13 or greater
 - A user account at [Setlist.fm](setlist.fm) (to get an API key)
 
 ### Usage
@@ -60,4 +60,4 @@ This wrapper also features documentation comments ported from the documentation 
 There are currently no additional features, but there are plans to add the following enhancements to this framework, to make it more of a super-wrapper:
 - If a page number is not provided, return all pages of results (TODO)
 - Add methods that report artist statistics just like the website does (TODO)
-
+- Update to use async/await

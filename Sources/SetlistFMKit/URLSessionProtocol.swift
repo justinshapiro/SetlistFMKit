@@ -6,6 +6,8 @@
 //  Copyright © 2018 Justin Shapiro. All rights reserved.
 //
 
+import Foundation
+
 /// A general-purpose protocol that allows specific networking implementations to be defined
 /// in a way that is compatible with `URLSession` so that the providing such network implementation is optional
 public protocol URLSessionProtocol {

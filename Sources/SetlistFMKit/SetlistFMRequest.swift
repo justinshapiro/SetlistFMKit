@@ -6,6 +6,8 @@
 //  Copyright © 2018 Justin Shapiro. All rights reserved.
 //
 
+import Foundation
+
 /// A protocol specifying the required properties of an API-bound request model
 protocol SetlistFMRequestModel {
     /// The primary endpoint following the base url, not including any query parameters
