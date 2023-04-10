@@ -1,4 +1,4 @@
-# SetlistFmKit - A Setlist.fm API wrapper for Swift
+# SetlistFMKit - A Setlist.fm API wrapper for Swift
 A simple Swift wrapper around the Setlist.fm API. [Setlist.fm](setlist.fm) is a large internet database of detailed, community-provided live-concert setlists (lists of songs played) by any artist throughout history.
 
 This wrapper is intended to help you integrate data from Setlist.fm into your iOS or macOS application, without having to know the various idiosyncrasies of the API. A basic built-in networking implementation using `URLSession` handles RESTful `GET` requests to the 15 available endpoints, and the corresponding method signatures allow fully parameterized requests to those endpoints. Calling any one of the 15 wrapper methods will return asynchronously a deserialized object corresponding to the JSON returned from the associated endpoint behind-the-scenes. All wrapper methods are covered fully by Unit Tests, which utilize sample reponses from the API. These Unit Tests verify correctness of this wrapper but also serve as a reference for the API and useage of the wrapper.
@@ -6,7 +6,7 @@ This wrapper is intended to help you integrate data from Setlist.fm into your iO
 Although the default networking implementation for this wrapper uses `URLSession.shared`, you may specify your own networking implementation that this wrapper should use, as long as your networking implementation conforms to the wrapper's `URLSessionProtocol`.
 
 ### Requirements
-- Swift 4.2
+- Swift 5
 - Xcode 10
 - A user account at [Setlist.fm](setlist.fm) (to get an API key)
 
@@ -17,9 +17,9 @@ To use this API wrapper, you must generate your own Setlist.fm API key. Generati
 After generating your key, you are ready to go!
 
 ```swift
-import SetlistFmKit
+import SetlistFMKit
 
-let wrapper = SetlistFmWrapper(apiKey: "your-api-key")
+let wrapper = SetlistFMWrapper(apiKey: "your-api-key")
 wrapper.searchSetlists(artistName: "Radiohead") { result in
     switch result {
     case .success(let setlistResponse):
