@@ -10,6 +10,27 @@
 		C5E27071211FE45E00E12E0D /* SetlistFmKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E27067211FE45E00E12E0D /* SetlistFmKit.framework */; };
 		C5E27076211FE45E00E12E0D /* SetlistFmKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E27075211FE45E00E12E0D /* SetlistFmKitTests.swift */; };
 		C5E27078211FE45E00E12E0D /* SetlistFmKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E2706A211FE45E00E12E0D /* SetlistFmKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5E27084211FE5BB00E12E0D /* SetlistFmResponseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E27083211FE5BB00E12E0D /* SetlistFmResponseModels.swift */; };
+		C5E27086211FF39900E12E0D /* SetlistFmRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E27085211FF39900E12E0D /* SetlistFmRequest.swift */; };
+		C5F2BFC7213F98300099AEAC /* getCityWithGeoId.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F2BFC6213F98300099AEAC /* getCityWithGeoId.json */; };
+		C5F2BFC92140B0F80099AEAC /* searchArtists.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F2BFC82140B0F70099AEAC /* searchArtists.json */; };
+		C5F2BFCB2140B9E00099AEAC /* searchCities.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F2BFCA2140B9E00099AEAC /* searchCities.json */; };
+		C5F2BFCD2140BBC70099AEAC /* searchCountries.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F2BFCC2140BBC60099AEAC /* searchCountries.json */; };
+		C5F2BFCF2140C2EE0099AEAC /* searchSetlists.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F2BFCE2140C2EE0099AEAC /* searchSetlists.json */; };
+		C5F2BFD12140C7A20099AEAC /* searchVenues.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F2BFD02140C7A20099AEAC /* searchVenues.json */; };
+		C5F2BFD32140D0CC0099AEAC /* getSetlistById.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F2BFD22140D0CC0099AEAC /* getSetlistById.json */; };
+		C5F2BFD52140D8FA0099AEAC /* getSetlistVersionById.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F2BFD42140D8FA0099AEAC /* getSetlistVersionById.json */; };
+		C5F2BFD72140DB200099AEAC /* getUserById.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F2BFD62140DB200099AEAC /* getUserById.json */; };
+		C5F2BFD92140DECD0099AEAC /* getUserAttendedSetlists.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F2BFD82140DECD0099AEAC /* getUserAttendedSetlists.json */; };
+		C5F2BFDB2140E2760099AEAC /* getUserEditedSetlists.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F2BFDA2140E2760099AEAC /* getUserEditedSetlists.json */; };
+		C5F2BFDD2140E33C0099AEAC /* getVenueById.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F2BFDC2140E33C0099AEAC /* getVenueById.json */; };
+		C5F2BFDF2140E55F0099AEAC /* getVenueSetlists.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F2BFDE2140E55F0099AEAC /* getVenueSetlists.json */; };
+		C5F4BA80213786A600D48CE6 /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F4BA7F213786A600D48CE6 /* URLSessionProtocol.swift */; };
+		C5F4BA8221378C0400D48CE6 /* MockNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F4BA8121378C0400D48CE6 /* MockNetwork.swift */; };
+		C5F4BA842137B09E00D48CE6 /* getArtistWithMbid.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F4BA832137B09E00D48CE6 /* getArtistWithMbid.json */; };
+		C5F4BA872137C44400D48CE6 /* getArtistWithMbidSetlists.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F4BA862137C44400D48CE6 /* getArtistWithMbidSetlists.json */; };
+		C5F6F6EF21227C2D0071766D /* SetlistFmWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F6F6EE21227C2D0071766D /* SetlistFmWrapper.swift */; };
+		C5F6F6F121227E840071766D /* SetlistFmRequestModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F6F6F021227E840071766D /* SetlistFmRequestModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +50,27 @@
 		C5E27070211FE45E00E12E0D /* SetlistFmKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SetlistFmKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E27075211FE45E00E12E0D /* SetlistFmKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetlistFmKitTests.swift; sourceTree = "<group>"; };
 		C5E27077211FE45E00E12E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5E27083211FE5BB00E12E0D /* SetlistFmResponseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetlistFmResponseModels.swift; sourceTree = "<group>"; };
+		C5E27085211FF39900E12E0D /* SetlistFmRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetlistFmRequest.swift; sourceTree = "<group>"; };
+		C5F2BFC6213F98300099AEAC /* getCityWithGeoId.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getCityWithGeoId.json; sourceTree = "<group>"; };
+		C5F2BFC82140B0F70099AEAC /* searchArtists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = searchArtists.json; sourceTree = "<group>"; };
+		C5F2BFCA2140B9E00099AEAC /* searchCities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = searchCities.json; sourceTree = "<group>"; };
+		C5F2BFCC2140BBC60099AEAC /* searchCountries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = searchCountries.json; sourceTree = "<group>"; };
+		C5F2BFCE2140C2EE0099AEAC /* searchSetlists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = searchSetlists.json; sourceTree = "<group>"; };
+		C5F2BFD02140C7A20099AEAC /* searchVenues.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = searchVenues.json; sourceTree = "<group>"; };
+		C5F2BFD22140D0CC0099AEAC /* getSetlistById.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getSetlistById.json; sourceTree = "<group>"; };
+		C5F2BFD42140D8FA0099AEAC /* getSetlistVersionById.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getSetlistVersionById.json; sourceTree = "<group>"; };
+		C5F2BFD62140DB200099AEAC /* getUserById.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getUserById.json; sourceTree = "<group>"; };
+		C5F2BFD82140DECD0099AEAC /* getUserAttendedSetlists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getUserAttendedSetlists.json; sourceTree = "<group>"; };
+		C5F2BFDA2140E2760099AEAC /* getUserEditedSetlists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getUserEditedSetlists.json; sourceTree = "<group>"; };
+		C5F2BFDC2140E33C0099AEAC /* getVenueById.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getVenueById.json; sourceTree = "<group>"; };
+		C5F2BFDE2140E55F0099AEAC /* getVenueSetlists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getVenueSetlists.json; sourceTree = "<group>"; };
+		C5F4BA7F213786A600D48CE6 /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
+		C5F4BA8121378C0400D48CE6 /* MockNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetwork.swift; sourceTree = "<group>"; };
+		C5F4BA832137B09E00D48CE6 /* getArtistWithMbid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getArtistWithMbid.json; sourceTree = "<group>"; };
+		C5F4BA862137C44400D48CE6 /* getArtistWithMbidSetlists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getArtistWithMbidSetlists.json; sourceTree = "<group>"; };
+		C5F6F6EE21227C2D0071766D /* SetlistFmWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetlistFmWrapper.swift; sourceTree = "<group>"; };
+		C5F6F6F021227E840071766D /* SetlistFmRequestModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetlistFmRequestModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +115,11 @@
 			children = (
 				C5E2706A211FE45E00E12E0D /* SetlistFmKit.h */,
 				C5E2706B211FE45E00E12E0D /* Info.plist */,
+				C5E27083211FE5BB00E12E0D /* SetlistFmResponseModels.swift */,
+				C5F6F6F021227E840071766D /* SetlistFmRequestModels.swift */,
+				C5E27085211FF39900E12E0D /* SetlistFmRequest.swift */,
+				C5F6F6EE21227C2D0071766D /* SetlistFmWrapper.swift */,
+				C5F4BA7F213786A600D48CE6 /* URLSessionProtocol.swift */,
 			);
 			path = SetlistFmKit;
 			sourceTree = "<group>";
@@ -80,10 +127,34 @@
 		C5E27074211FE45E00E12E0D /* SetlistFmKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				C5F4BA7E2137819300D48CE6 /* Mock Responses */,
 				C5E27075211FE45E00E12E0D /* SetlistFmKitTests.swift */,
 				C5E27077211FE45E00E12E0D /* Info.plist */,
+				C5F4BA8121378C0400D48CE6 /* MockNetwork.swift */,
 			);
 			path = SetlistFmKitTests;
+			sourceTree = "<group>";
+		};
+		C5F4BA7E2137819300D48CE6 /* Mock Responses */ = {
+			isa = PBXGroup;
+			children = (
+				C5F2BFDE2140E55F0099AEAC /* getVenueSetlists.json */,
+				C5F2BFDC2140E33C0099AEAC /* getVenueById.json */,
+				C5F2BFDA2140E2760099AEAC /* getUserEditedSetlists.json */,
+				C5F2BFD82140DECD0099AEAC /* getUserAttendedSetlists.json */,
+				C5F2BFD62140DB200099AEAC /* getUserById.json */,
+				C5F2BFD42140D8FA0099AEAC /* getSetlistVersionById.json */,
+				C5F2BFD22140D0CC0099AEAC /* getSetlistById.json */,
+				C5F2BFD02140C7A20099AEAC /* searchVenues.json */,
+				C5F2BFCE2140C2EE0099AEAC /* searchSetlists.json */,
+				C5F2BFCC2140BBC60099AEAC /* searchCountries.json */,
+				C5F2BFCA2140B9E00099AEAC /* searchCities.json */,
+				C5F2BFC82140B0F70099AEAC /* searchArtists.json */,
+				C5F2BFC6213F98300099AEAC /* getCityWithGeoId.json */,
+				C5F4BA862137C44400D48CE6 /* getArtistWithMbidSetlists.json */,
+				C5F4BA832137B09E00D48CE6 /* getArtistWithMbid.json */,
+			);
+			path = "Mock Responses";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +219,7 @@
 				TargetAttributes = {
 					C5E27066211FE45E00E12E0D = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					C5E2706F211FE45E00E12E0D = {
 						CreatedOnToolsVersion = 10.0;
@@ -184,6 +256,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F2BFD52140D8FA0099AEAC /* getSetlistVersionById.json in Resources */,
+				C5F2BFD72140DB200099AEAC /* getUserById.json in Resources */,
+				C5F2BFDF2140E55F0099AEAC /* getVenueSetlists.json in Resources */,
+				C5F2BFCD2140BBC70099AEAC /* searchCountries.json in Resources */,
+				C5F4BA872137C44400D48CE6 /* getArtistWithMbidSetlists.json in Resources */,
+				C5F2BFCB2140B9E00099AEAC /* searchCities.json in Resources */,
+				C5F4BA842137B09E00D48CE6 /* getArtistWithMbid.json in Resources */,
+				C5F2BFDD2140E33C0099AEAC /* getVenueById.json in Resources */,
+				C5F2BFD32140D0CC0099AEAC /* getSetlistById.json in Resources */,
+				C5F2BFC92140B0F80099AEAC /* searchArtists.json in Resources */,
+				C5F2BFD12140C7A20099AEAC /* searchVenues.json in Resources */,
+				C5F2BFCF2140C2EE0099AEAC /* searchSetlists.json in Resources */,
+				C5F2BFC7213F98300099AEAC /* getCityWithGeoId.json in Resources */,
+				C5F2BFDB2140E2760099AEAC /* getUserEditedSetlists.json in Resources */,
+				C5F2BFD92140DECD0099AEAC /* getUserAttendedSetlists.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F4BA80213786A600D48CE6 /* URLSessionProtocol.swift in Sources */,
+				C5E27084211FE5BB00E12E0D /* SetlistFmResponseModels.swift in Sources */,
+				C5F6F6EF21227C2D0071766D /* SetlistFmWrapper.swift in Sources */,
+				C5E27086211FF39900E12E0D /* SetlistFmRequest.swift in Sources */,
+				C5F6F6F121227E840071766D /* SetlistFmRequestModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F4BA8221378C0400D48CE6 /* MockNetwork.swift in Sources */,
 				C5E27076211FE45E00E12E0D /* SetlistFmKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +434,7 @@
 		C5E2707C211FE45E00E12E0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +452,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shapiro.SetlistFmKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +461,7 @@
 		C5E2707D211FE45E00E12E0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +487,7 @@
 		C5E2707F211FE45E00E12E0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9W4EAV7NE7;
 				INFOPLIST_FILE = SetlistFmKitTests/Info.plist;
@@ -409,6 +506,7 @@
 		C5E27080211FE45E00E12E0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9W4EAV7NE7;
 				INFOPLIST_FILE = SetlistFmKitTests/Info.plist;

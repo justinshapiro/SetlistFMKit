@@ -1,0 +1,708 @@
+{
+    "type": "cities",
+    "itemsPerPage": 50,
+    "page": 1,
+    "total": 154,
+    "cities": [
+        {
+            "id": "6446330",
+            "name": "Saint-Leu-la-Forêt",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 49.01694,
+                "long": 2.24639
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "3019588",
+            "name": "Gare de Paris-Est",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8768527895944,
+                "long": 2.3591423034668
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "2565615",
+            "name": "Paris",
+            "state": "Sangha",
+            "stateCode": "10",
+            "coords": {
+                "lat": 1.5527778,
+                "long": 15.6405556
+            },
+            "country": {
+                "code": "CG",
+                "name": "Congo"
+            }
+        },
+        {
+            "id": "2995206",
+            "name": "Massy",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.7333333,
+                "long": 2.2833333
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "3029276",
+            "name": "Cachan",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.7833333,
+                "long": 2.3333333
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "2977824",
+            "name": "Saint-Ouen",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.9,
+                "long": 2.3333333
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "2977317",
+            "name": "Saint-Prix",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 49.0166667,
+                "long": 2.2666667
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "6452026",
+            "name": "Nogent-sur-Marne",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8333333,
+                "long": 2.4833333
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "2999139",
+            "name": "Le Touquet-Paris-Plage",
+            "state": "Nord-Pas-de-Calais",
+            "stateCode": "B4",
+            "coords": {
+                "lat": 50.5166667,
+                "long": 1.5833333
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "3020188",
+            "name": "Enghien-les-Bains",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.9666667,
+                "long": 2.3166667
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "3024597",
+            "name": "Clichy",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.9,
+                "long": 2.3
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "3026083",
+            "name": "Châtillon",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8,
+                "long": 2.2833333
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "3026108",
+            "name": "Châtenay-Malabry",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.7666667,
+                "long": 2.2666667
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "2982235",
+            "name": "Rueil-Malmaison",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8833333,
+                "long": 2.2
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "6942553",
+            "name": "Paris",
+            "state": "Ontario",
+            "stateCode": "ON",
+            "coords": {
+                "lat": 43.2,
+                "long": -80.383333
+            },
+            "country": {
+                "code": "CA",
+                "name": "Canada"
+            }
+        },
+        {
+            "id": "6452014",
+            "name": "Charenton-le-Pont",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8166667,
+                "long": 2.4166667
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "2982757",
+            "name": "Rosny-sous-Bois",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8666667,
+                "long": 2.4833333
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "6612928",
+            "name": "Montmagny",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.9666667,
+                "long": 2.35
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "3031815",
+            "name": "Bondy",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.9,
+                "long": 2.4666667
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "2990189",
+            "name": "Noisy-le-Grand",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.85,
+                "long": 2.5666667
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "3016675",
+            "name": "Garches",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.85,
+                "long": 2.1833333
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "2968482",
+            "name": "Villepinte",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.9666667,
+                "long": 2.5333333
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "6444014",
+            "name": "Marly-le-Roi",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8666667,
+                "long": 2.0833333
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "2997712",
+            "name": "Longjumeau",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.7,
+                "long": 2.3
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "6474966",
+            "name": "Paris",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8804,
+                "long": 2.3369
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "2990187",
+            "name": "Noisy-le-Sec",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8833333,
+                "long": 2.4666667
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "2994144",
+            "name": "Meudon",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8166667,
+                "long": 2.2333333
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "2967245",
+            "name": "Yerres",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.7166667,
+                "long": 2.5
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "2974681",
+            "name": "Sevran",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.9333333,
+                "long": 2.5333333
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "4246659",
+            "name": "Paris",
+            "state": "Illinois",
+            "stateCode": "IL",
+            "coords": {
+                "lat": 39.611146,
+                "long": -87.6961374
+            },
+            "country": {
+                "code": "US",
+                "name": "United States"
+            }
+        },
+        {
+            "id": "2974678",
+            "name": "Sèvres",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8166667,
+                "long": 2.2
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "3022301",
+            "name": "Crosne",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.71921,
+                "long": 2.45728
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "3004630",
+            "name": "Le Chesnay",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8222,
+                "long": 2.12213
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "3025314",
+            "name": "Chevilly-Larue",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.76476,
+                "long": 2.3503
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "2997351",
+            "name": "Louveciennes",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.86115,
+                "long": 2.11463
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "6618617",
+            "name": "Paris 11",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8574,
+                "long": 2.3795
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "2988507",
+            "name": "Paris",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.85341,
+                "long": 2.3488
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "3012165",
+            "name": "Jouy-en-Josas",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.7666667,
+                "long": 2.1666667
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "3035403",
+            "name": "Bagnolet",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8666667,
+                "long": 2.4166667
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "3000491",
+            "name": "Les Lilas",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8833333,
+                "long": 2.4333333
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "3024266",
+            "name": "Colombes",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.9166667,
+                "long": 2.25
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "6618626",
+            "name": "Paris 20",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8646,
+                "long": 2.3984
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "6618607",
+            "name": "Paris 01",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8592,
+                "long": 2.3417
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "6452038",
+            "name": "Villejuif",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8,
+                "long": 2.3666667
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "2967849",
+            "name": "Vitry-sur-Seine",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.7833333,
+                "long": 2.4
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "2968555",
+            "name": "Villeneuve-la-Garenne",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.9333333,
+                "long": 2.3166667
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "3002499",
+            "name": "Le Pré-Saint-Gervais",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8833333,
+                "long": 2.4
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "2990612",
+            "name": "Neuilly-sur-Marne",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.85,
+                "long": 2.5333333
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "3012649",
+            "name": "Issy-les-Moulineaux",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8166667,
+                "long": 2.2666667
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        },
+        {
+            "id": "3012621",
+            "name": "Ivry-sur-Seine",
+            "state": "Île-de-France",
+            "stateCode": "A8",
+            "coords": {
+                "lat": 48.8166667,
+                "long": 2.3833333
+            },
+            "country": {
+                "code": "FR",
+                "name": "France"
+            }
+        }
+    ]
+}

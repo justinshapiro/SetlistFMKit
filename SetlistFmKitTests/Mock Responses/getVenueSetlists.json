@@ -1,0 +1,1146 @@
+{
+    "type": "setlists",
+    "itemsPerPage": 20,
+    "page": 1,
+    "total": 2006,
+    "setlist": [
+        {
+            "id": "3e86d2b",
+            "versionId": "4364e7f7",
+            "eventDate": "02-09-2018",
+            "lastUpdated": "2018-09-01T22:03:43.000+0000",
+            "artist": {
+                "mbid": "a436dd02-0549-4c91-b608-df451217fdeb",
+                "tmid": 1239226,
+                "name": "Parkway Drive",
+                "sortName": "Parkway Drive",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/parkway-drive-5bd6d3b8.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "Reverence"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/parkway-drive/2018/ogden-theatre-denver-co-3e86d2b.html"
+        },
+        {
+            "id": "13e85539",
+            "versionId": "6b6432ea",
+            "eventDate": "02-09-2018",
+            "lastUpdated": "2018-09-04T08:06:04.000+0000",
+            "artist": {
+                "mbid": "5bac9b4f-2f1c-4d39-8d11-231d5b6650ce",
+                "tmid": 1115308,
+                "name": "August Burns Red",
+                "sortName": "August Burns Red",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/august-burns-red-7bd6f66c.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/august-burns-red/2018/ogden-theatre-denver-co-13e85539.html"
+        },
+        {
+            "id": "23e8084f",
+            "versionId": "3364b031",
+            "eventDate": "28-08-2018",
+            "lastUpdated": "2018-08-29T05:03:33.000+0000",
+            "artist": {
+                "mbid": "c7eb03c1-f8cb-4815-afc8-46df3b253129",
+                "name": "Teyana Taylor",
+                "sortName": "Taylor, Teyana",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/teyana-taylor-13d2e901.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "No Manners"
+                            },
+                            {
+                                "name": ""
+                            },
+                            {
+                                "name": "Broken Hearted Girl"
+                            },
+                            {
+                                "name": "Hurry"
+                            },
+                            {
+                                "name": ""
+                            },
+                            {
+                                "name": "3way"
+                            },
+                            {
+                                "name": "Do Not Disturb"
+                            },
+                            {
+                                "name": "Maybe"
+                            },
+                            {
+                                "name": "WTP"
+                            },
+                            {
+                                "name": "Just Different"
+                            },
+                            {
+                                "name": "Gonna Love Me"
+                            },
+                            {
+                                "name": "Issues/Hold On"
+                            },
+                            {
+                                "name": "Never Would Have Made It"
+                            },
+                            {
+                                "name": "Rose in Harlem"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/teyana-taylor/2018/ogden-theatre-denver-co-23e8084f.html"
+        },
+        {
+            "id": "53e89381",
+            "versionId": "136609f9",
+            "eventDate": "15-08-2018",
+            "lastUpdated": "2018-08-16T06:52:00.000+0000",
+            "artist": {
+                "mbid": "d5cc67b8-1cc4-453b-96e8-44487acdebea",
+                "tmid": 1105920,
+                "name": "Beach House",
+                "sortName": "Beach House",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/beach-house-2bd6e81a.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "7"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "L'Inconnue"
+                            },
+                            {
+                                "name": "Walk in the Park"
+                            },
+                            {
+                                "name": "Sparks"
+                            },
+                            {
+                                "name": "Master of None"
+                            },
+                            {
+                                "name": "Dark Spring"
+                            },
+                            {
+                                "name": "Lazuli"
+                            },
+                            {
+                                "name": "Rough Song"
+                            },
+                            {
+                                "name": "Space Song"
+                            },
+                            {
+                                "name": "10 Mile Stereo"
+                            },
+                            {
+                                "name": "Heart of Chambers"
+                            },
+                            {
+                                "name": "Drunk in LA"
+                            },
+                            {
+                                "name": "Wishes"
+                            },
+                            {
+                                "name": "Girl of the Year"
+                            },
+                            {
+                                "name": "Wildflower"
+                            },
+                            {
+                                "name": "Lemon Glow"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "Woo"
+                            },
+                            {
+                                "name": "Myth"
+                            },
+                            {
+                                "name": "Dive"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/beach-house/2018/ogden-theatre-denver-co-53e89381.html"
+        },
+        {
+            "id": "4be8fb8a",
+            "versionId": "1b6609fc",
+            "eventDate": "15-08-2018",
+            "lastUpdated": "2018-08-16T06:54:28.000+0000",
+            "artist": {
+                "mbid": "34c9cca1-1e7e-4123-b77b-dcbf57f6c4c2",
+                "name": "Sound of Ceres",
+                "sortName": "Sound of Ceres",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/sound-of-ceres-13c26909.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/sound-of-ceres/2018/ogden-theatre-denver-co-4be8fb8a.html"
+        },
+        {
+            "id": "4be8af12",
+            "versionId": "3b66bcf0",
+            "eventDate": "11-08-2018",
+            "lastUpdated": "2018-08-09T18:28:53.000+0000",
+            "artist": {
+                "mbid": "bd9bd66a-0f0b-402c-bf19-0a65a8af0f7d",
+                "name": "Waylon & Willie",
+                "sortName": "Jennings, Waylon & Nelson, Willie",
+                "url": "https://www.setlist.fm/setlists/waylon-and-willie-53c59f71.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "Trunk Muzik III Tour"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/waylon-and-willie/2018/ogden-theatre-denver-co-4be8af12.html"
+        },
+        {
+            "id": "43e8af17",
+            "versionId": "2b66bcee",
+            "eventDate": "11-08-2018",
+            "lastUpdated": "2018-08-09T18:30:02.000+0000",
+            "artist": {
+                "mbid": "13513a8a-e9a8-4367-b9e4-410fef5bed3a",
+                "tmid": 35867,
+                "name": "Yelawolf",
+                "sortName": "Yelawolf",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/yelawolf-3bd588f0.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "Trunk Muzik III Tour"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/yelawolf/2018/ogden-theatre-denver-co-43e8af17.html"
+        },
+        {
+            "id": "53e8af11",
+            "versionId": "3b66bcf4",
+            "eventDate": "11-08-2018",
+            "lastUpdated": "2018-08-09T18:29:18.000+0000",
+            "artist": {
+                "mbid": "a8c1bc0d-e878-4fb1-a2aa-1dcd8624fbf2",
+                "name": "Jelly Roll",
+                "sortName": "Jelly Roll",
+                "disambiguation": "Jelly Roll",
+                "url": "https://www.setlist.fm/setlists/jelly-roll-7bd9eefc.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "Trunk Muzik III Tour"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/jelly-roll/2018/ogden-theatre-denver-co-53e8af11.html"
+        },
+        {
+            "id": "5be8af10",
+            "versionId": "2366bcef",
+            "eventDate": "11-08-2018",
+            "lastUpdated": "2018-08-09T18:29:44.000+0000",
+            "artist": {
+                "mbid": "1b45e732-0391-4a2b-a72c-afd3b4de4eb1",
+                "name": "Struggle",
+                "sortName": "Struggle",
+                "disambiguation": "rapper",
+                "url": "https://www.setlist.fm/setlists/struggle-4bc3d7d6.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "Trunk Muzik III Tour"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/struggle/2018/ogden-theatre-denver-co-5be8af10.html"
+        },
+        {
+            "id": "3be8b868",
+            "versionId": "23796423",
+            "eventDate": "10-08-2018",
+            "lastUpdated": "2018-08-08T07:10:38.000+0000",
+            "artist": {
+                "mbid": "afd55c72-d123-4237-9818-fa3ce634b3dd",
+                "name": "Highly Suspect",
+                "sortName": "Highly Suspect",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/highly-suspect-33d89819.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "No Tour Assigned"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/highly-suspect/2018/ogden-theatre-denver-co-3be8b868.html"
+        },
+        {
+            "id": "53eb5321",
+            "versionId": "6b79666a",
+            "eventDate": "07-08-2018",
+            "lastUpdated": "2018-08-08T11:41:04.000+0000",
+            "artist": {
+                "mbid": "6a93afbb-257f-4166-b389-9f2a1e5c5df8",
+                "name": "CHVRCHES",
+                "sortName": "CHVRCHES",
+                "disambiguation": "Glaswegian electronic pop trio",
+                "url": "https://www.setlist.fm/setlists/chvrches-13dfc9b5.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "Love Is Dead"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Get Out"
+                            },
+                            {
+                                "name": "Gun"
+                            },
+                            {
+                                "name": "Bury It"
+                            },
+                            {
+                                "name": "We Sink"
+                            },
+                            {
+                                "name": "Graffiti"
+                            },
+                            {
+                                "name": "Graves"
+                            },
+                            {
+                                "name": "God's Plan"
+                            },
+                            {
+                                "name": "Under the Tide"
+                            },
+                            {
+                                "name": "Miracle"
+                            },
+                            {
+                                "name": "Science/Visions"
+                            },
+                            {
+                                "name": "Recover"
+                            },
+                            {
+                                "name": "Forever"
+                            },
+                            {
+                                "name": "Leave a Trace"
+                            },
+                            {
+                                "name": "Clearest Blue"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "The Mother We Share"
+                            },
+                            {
+                                "name": "Never Say Die"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/chvrches/2018/ogden-theatre-denver-co-53eb5321.html"
+        },
+        {
+            "id": "beb59f6",
+            "versionId": "5b66e33c",
+            "eventDate": "06-08-2018",
+            "lastUpdated": "2018-08-12T18:47:12.000+0000",
+            "artist": {
+                "mbid": "6a93afbb-257f-4166-b389-9f2a1e5c5df8",
+                "name": "CHVRCHES",
+                "sortName": "CHVRCHES",
+                "disambiguation": "Glaswegian electronic pop trio",
+                "url": "https://www.setlist.fm/setlists/chvrches-13dfc9b5.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "Love Is Dead"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Get Out"
+                            },
+                            {
+                                "name": "Gun"
+                            },
+                            {
+                                "name": "Bury It"
+                            },
+                            {
+                                "name": "We Sink"
+                            },
+                            {
+                                "name": "Graffiti"
+                            },
+                            {
+                                "name": "Graves"
+                            },
+                            {
+                                "name": "God's Plan"
+                            },
+                            {
+                                "name": "Under the Tide"
+                            },
+                            {
+                                "name": "Miracle"
+                            },
+                            {
+                                "name": "Science/Visions",
+                                "info": "tour debut"
+                            },
+                            {
+                                "name": "Forever"
+                            },
+                            {
+                                "name": "Recover"
+                            },
+                            {
+                                "name": "Leave a Trace"
+                            },
+                            {
+                                "name": "Clearest Blue"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "The Mother We Share"
+                            },
+                            {
+                                "name": "Never Say Die"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/chvrches/2018/ogden-theatre-denver-co-beb59f6.html"
+        },
+        {
+            "id": "23eb6053",
+            "versionId": "63790adf",
+            "eventDate": "05-08-2018",
+            "lastUpdated": "2018-08-06T17:57:21.000+0000",
+            "artist": {
+                "mbid": "1d71cfe3-f105-4dd5-bdfe-61f6fde2cac7",
+                "name": "Allegaeon",
+                "sortName": "Allegaeon",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/allegaeon-5bd4cf20.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "The Summer Slaughter Tour 2018"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Gray Matter Mechanics - Apassionata Ex Machinea"
+                            },
+                            {
+                                "name": "Iconic Images"
+                            },
+                            {
+                                "name": "Biomech - Vals No. 666"
+                            },
+                            {
+                                "name": "1.618"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/allegaeon/2018/ogden-theatre-denver-co-23eb6053.html"
+        },
+        {
+            "id": "3beb6050",
+            "versionId": "379e51b",
+            "eventDate": "05-08-2018",
+            "lastUpdated": "2018-08-03T01:44:58.000+0000",
+            "artist": {
+                "mbid": "f2d10e7a-cc3a-42df-a72c-2abc05057c41",
+                "name": "Erra",
+                "sortName": "Erra",
+                "disambiguation": "Canadan techno DJ Cristina Handrabur",
+                "url": "https://www.setlist.fm/setlists/erra-5bd4bfb0.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "The Summer Slaughter Tour 2018"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/erra/2018/ogden-theatre-denver-co-3beb6050.html"
+        },
+        {
+            "id": "33eb6055",
+            "versionId": "7b790ad4",
+            "eventDate": "05-08-2018",
+            "lastUpdated": "2018-08-06T18:00:17.000+0000",
+            "artist": {
+                "mbid": "32e740e5-95ea-42e3-b5e2-29f6630488e4",
+                "tmid": 1394407,
+                "name": "Veil of Maya",
+                "sortName": "Veil of Maya",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/veil-of-maya-43d7b38f.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "The Summer Slaughter Tour 2018"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Pillars"
+                            },
+                            {
+                                "name": "We Bow in Its Aura"
+                            },
+                            {
+                                "name": "Whistleblower"
+                            },
+                            {
+                                "name": "Doublespeak"
+                            },
+                            {
+                                "name": "Punisher"
+                            },
+                            {
+                                "name": "Overthrow"
+                            },
+                            {
+                                "name": "Nyu"
+                            },
+                            {
+                                "name": "Leeloo"
+                            },
+                            {
+                                "name": "Lisbeth"
+                            },
+                            {
+                                "name": "Pool Spray"
+                            },
+                            {
+                                "name": "Mikasa"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/veil-of-maya/2018/ogden-theatre-denver-co-33eb6055.html"
+        },
+        {
+            "id": "33eb605d",
+            "versionId": "1379e521",
+            "eventDate": "05-08-2018",
+            "lastUpdated": "2018-08-03T01:43:36.000+0000",
+            "artist": {
+                "mbid": "f6cb4b5f-7d46-4fb0-b409-78e6267d6092",
+                "name": "Soreption",
+                "sortName": "Soreption",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/soreption-73d59ac5.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "The Summer Slaughter Tour 2018"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/soreption/2018/ogden-theatre-denver-co-33eb605d.html"
+        },
+        {
+            "id": "2beb6052",
+            "versionId": "1379e525",
+            "eventDate": "05-08-2018",
+            "lastUpdated": "2018-08-03T01:44:43.000+0000",
+            "artist": {
+                "mbid": "06aec14b-36b4-4b81-97ad-ec199852f139",
+                "name": "Terror Universal",
+                "sortName": "Terror Universal",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/terror-universal-3c6ad63.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "The Summer Slaughter Tour 2018"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/terror-universal/2018/ogden-theatre-denver-co-2beb6052.html"
+        },
+        {
+            "id": "3beb6054",
+            "versionId": "73790a91",
+            "eventDate": "05-08-2018",
+            "lastUpdated": "2018-08-06T18:05:44.000+0000",
+            "artist": {
+                "mbid": "132ca1ea-0891-420f-b129-50247bb144b5",
+                "tmid": 1256357,
+                "name": "Born of Osiris",
+                "sortName": "Born of Osiris",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/born-of-osiris-23d6fcdf.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "The Summer Slaughter Tour 2018"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Machine"
+                            },
+                            {
+                                "name": "Divergency"
+                            },
+                            {
+                                "name": "Bow Down"
+                            },
+                            {
+                                "name": "The Other Half of Me"
+                            },
+                            {
+                                "name": "Throw Me in the Jungle"
+                            },
+                            {
+                                "name": "Brace Legs"
+                            },
+                            {
+                                "name": "Empires Erased"
+                            },
+                            {
+                                "name": "Silence The Echo"
+                            },
+                            {
+                                "name": "The Sleeping and the Dead"
+                            },
+                            {
+                                "name": "Abstract Art"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/born-of-osiris/2018/ogden-theatre-denver-co-3beb6054.html"
+        },
+        {
+            "id": "23eb604b",
+            "versionId": "1b790914",
+            "eventDate": "05-08-2018",
+            "lastUpdated": "2018-08-06T15:15:21.000+0000",
+            "artist": {
+                "mbid": "1870fb43-50f1-4660-a879-bb596d1519b6",
+                "tmid": 876966,
+                "name": "Between the Buried and Me",
+                "sortName": "Between the Buried and Me",
+                "disambiguation": "",
+                "url": "https://www.setlist.fm/setlists/between-the-buried-and-me-3bd6fcd8.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "The Summer Slaughter Tour 2018"
+            },
+            "sets": {
+                "set": [
+                    {
+                        "song": [
+                            {
+                                "name": "Informal Gluttony"
+                            },
+                            {
+                                "name": "Extremophile Elite"
+                            },
+                            {
+                                "name": "Famine Wolf"
+                            },
+                            {
+                                "name": "Blot"
+                            },
+                            {
+                                "name": "Disease, Injury, Madness"
+                            },
+                            {
+                                "name": "Voice of Trespass"
+                            },
+                            {
+                                "name": "Condemned to the Gallows"
+                            }
+                        ]
+                    },
+                    {
+                        "encore": 1,
+                        "song": [
+                            {
+                                "name": "Selkies: The Endless Obsession"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "url": "https://www.setlist.fm/setlist/between-the-buried-and-me/2018/ogden-theatre-denver-co-23eb604b.html"
+        },
+        {
+            "id": "3beb605c",
+            "versionId": "379e527",
+            "eventDate": "05-08-2018",
+            "lastUpdated": "2018-08-03T01:43:57.000+0000",
+            "artist": {
+                "mbid": "1f3ecbc5-21ca-4ce0-bed9-183fce1b03cf",
+                "name": "Entheos",
+                "sortName": "Entheos",
+                "disambiguation": "US technical death metal band",
+                "url": "https://www.setlist.fm/setlists/entheos-3bc68424.html"
+            },
+            "venue": {
+                "id": "6bd63666",
+                "name": "Ogden Theatre",
+                "city": {
+                    "id": "5419384",
+                    "name": "Denver",
+                    "state": "Colorado",
+                    "stateCode": "CO",
+                    "coords": {
+                        "lat": 39.7391536,
+                        "long": -104.9847034
+                    },
+                    "country": {
+                        "code": "US",
+                        "name": "United States"
+                    }
+                },
+                "url": "https://www.setlist.fm/venue/ogden-theatre-denver-co-usa-6bd63666.html"
+            },
+            "tour": {
+                "name": "The Summer Slaughter Tour 2018"
+            },
+            "sets": {
+                "set": []
+            },
+            "url": "https://www.setlist.fm/setlist/entheos/2018/ogden-theatre-denver-co-3beb605c.html"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "type": "artists",
+    "itemsPerPage": 30,
+    "page": 1,
+    "total": 8,
+    "artist": [
+        {
+            "mbid": "e48fc8b3-e8ab-4dd4-9dc8-6b0f06ef07d6",
+            "name": "Radiohead Cover Brasil",
+            "sortName": "Brasil, Radiohead Cover",
+            "disambiguation": "",
+            "url": "https://www.setlist.fm/setlists/radiohead-cover-brasil-6bc0ea12.html"
+        },
+        {
+            "mbid": "cac873fe-d396-4992-a326-156de77a4dc1",
+            "name": "El Lele de los Van Van feat. Radiohead",
+            "sortName": "El Lele de los Van Van feat. Radiohead",
+            "url": "https://www.setlist.fm/setlists/el-lele-de-los-van-van-feat-radiohead-6bce424e.html"
+        },
+        {
+            "mbid": "a6bf248f-5fec-47f9-ab68-94bec380777b",
+            "name": "El Lele de los Van Van feat. Radiohead (samples)",
+            "sortName": "El Lele de los Van Van feat. Radiohead (samples)",
+            "url": "https://www.setlist.fm/setlists/el-lele-de-los-van-van-feat-radiohead-samples-2bd8f4ba.html"
+        },
+        {
+            "mbid": "bd58d848-c0c7-43bc-9a63-79e405d6406b",
+            "name": "Plan B feat. Radiohead",
+            "sortName": "Plan B feat. Radiohead",
+            "url": "https://www.setlist.fm/setlists/plan-b-feat-radiohead-3d081cf.html"
+        },
+        {
+            "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+            "tmid": 763468,
+            "name": "Radiohead",
+            "sortName": "Radiohead",
+            "disambiguation": "",
+            "url": "https://www.setlist.fm/setlists/radiohead-bd6bd12.html"
+        },
+        {
+            "mbid": "8ca0e098-574b-4a33-8f64-a34e06a4f9f4",
+            "name": "Radiohead & Panzah Zandahz",
+            "sortName": "Radiohead & Panzah Zandahz",
+            "url": "https://www.setlist.fm/setlists/radiohead-and-panzah-zandahz-5bd54bb8.html"
+        },
+        {
+            "mbid": "a0293373-d29e-4ce5-82a9-13a02b02b27f",
+            "name": "Radiohead feat. Michael Stipe",
+            "sortName": "Radiohead feat. Stipe, Michael",
+            "url": "https://www.setlist.fm/setlists/radiohead-feat-michael-stipe-33d1087d.html"
+        },
+        {
+            "mbid": "cc356d59-4a34-42a5-8963-54c96d60a30c",
+            "name": "Radiohead vs. Heatbeat",
+            "sortName": "Radiohead vs. Heatbeat",
+            "url": "https://www.setlist.fm/setlists/radiohead-vs-heatbeat-6bdc3e6a.html"
+        }
+    ]
+}
