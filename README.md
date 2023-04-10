@@ -51,7 +51,7 @@ let wrapper = SetlistFmWrapper(apiKey: "your-api-key", language: .portugese)
 
 ### Documentation
 
-Full documentation for the Setlist.FM API is available here: [https://api.setlist.fm/docs/1.0/ui/index.html](https://api.setlist.fm/docs/1.0/ui/index.html)
+Full documentation for the Setlist.fm API is available here: [https://api.setlist.fm/docs/1.0/ui/index.html](https://api.setlist.fm/docs/1.0/ui/index.html)
 
 This wrapper also features documentation comments ported from the documentation provided in the link above, so all methods and properties are annotated with helpful, descriptive sentences that describe their purpose and usage.
 
