@@ -1,7 +1,7 @@
-# SetlistFmKit - A Setlist.FM API wrapper for Swift
-A simple Swift wrapper around the Setlist.FM API. [Setlist.FM](setlist.fm) is a large internet database of detailed, community-provided live-concert setlists (lists of songs played) by any artist throughout history.
+# SetlistFmKit - A Setlist.fm API wrapper for Swift
+A simple Swift wrapper around the Setlist.fm API. [Setlist.FM](setlist.fm) is a large internet database of detailed, community-provided live-concert setlists (lists of songs played) by any artist throughout history.
 
-This wrapper is intended to help you integrate data from Setlist.FM into your iOS or macOS application, without having to know the various idiosyncrasies of the API. A basic built-in networking implementation using `URLSession` handles RESTful `GET` requests to the 15 available endpoints, and the corresponding method signatures allow fully parameterized requests to those endpoints. Calling any one of the 15 wrapper methods will return asynchronously a deserialized object corresponding to the JSON returned from the associated endpoint behind-the-scenes. All wrapper methods are covered fully by Unit Tests, which utilize sample reponses from the API. These Unit Tests verify correctness of this wrapper but also serve as a reference for the API and useage of the wrapper.
+This wrapper is intended to help you integrate data from Setlist.fm into your iOS or macOS application, without having to know the various idiosyncrasies of the API. A basic built-in networking implementation using `URLSession` handles RESTful `GET` requests to the 15 available endpoints, and the corresponding method signatures allow fully parameterized requests to those endpoints. Calling any one of the 15 wrapper methods will return asynchronously a deserialized object corresponding to the JSON returned from the associated endpoint behind-the-scenes. All wrapper methods are covered fully by Unit Tests, which utilize sample reponses from the API. These Unit Tests verify correctness of this wrapper but also serve as a reference for the API and useage of the wrapper.
 
 Although the default networking implementation for this wrapper uses `URLSession.shared`, you may specify your own networking implementation that this wrapper should use, as long as your networking implementation conforms to the wrapper's `URLSessionProtocol`.
 
@@ -12,7 +12,7 @@ Although the default networking implementation for this wrapper uses `URLSession
 
 #### Usage
 
-To use this API wrapper, you must generate your own Setlist.FM API key. Generating a key is free and can be done quickly here: [api.setlist.fm](api.setlist.fm). 
+To use this API wrapper, you must generate your own Setlist.fm API key. Generating a key is free and can be done quickly here: [api.setlist.fm](api.setlist.fm). 
 
 After generating your key, you are ready to go!
 
