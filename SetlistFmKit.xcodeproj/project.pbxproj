@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5BEE66F2147771200ED3039 /* URLSessionProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BEE66E2147771200ED3039 /* URLSessionProtocolTests.swift */; };
 		C5E27071211FE45E00E12E0D /* SetlistFmKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E27067211FE45E00E12E0D /* SetlistFmKit.framework */; };
 		C5E27076211FE45E00E12E0D /* SetlistFmKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E27075211FE45E00E12E0D /* SetlistFmKitTests.swift */; };
 		C5E27078211FE45E00E12E0D /* SetlistFmKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E2706A211FE45E00E12E0D /* SetlistFmKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C5BEE66E2147771200ED3039 /* URLSessionProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocolTests.swift; sourceTree = "<group>"; };
 		C5E27067211FE45E00E12E0D /* SetlistFmKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SetlistFmKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E2706A211FE45E00E12E0D /* SetlistFmKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetlistFmKit.h; sourceTree = "<group>"; };
 		C5E2706B211FE45E00E12E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			children = (
 				C5F4BA7E2137819300D48CE6 /* Mock Responses */,
 				C5E27075211FE45E00E12E0D /* SetlistFmKitTests.swift */,
+				C5BEE66E2147771200ED3039 /* URLSessionProtocolTests.swift */,
 				C5E27077211FE45E00E12E0D /* Info.plist */,
 				C5F4BA8121378C0400D48CE6 /* MockNetwork.swift */,
 			);
@@ -295,6 +298,7 @@
 			files = (
 				C5F4BA8221378C0400D48CE6 /* MockNetwork.swift in Sources */,
 				C5E27076211FE45E00E12E0D /* SetlistFmKitTests.swift in Sources */,
+				C5BEE66F2147771200ED3039 /* URLSessionProtocolTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

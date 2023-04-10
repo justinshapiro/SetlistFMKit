@@ -51,12 +51,7 @@ final class SetlistFmRequest {
         // web services need the "+" symbol escaped even though it is a valid query parameter character
         components.percentEncodedQuery = components.percentEncodedQuery?.replacingOccurrences(of: "+", with: "%2B")
         
-        guard let urlComponents = components.url,
-            let url = URL(string: baseURL + urlComponents.absoluteString) else {
-            completion(.failure(.init(code: 0, message: "Provided endpoint is not valid")))
-            return
-        }
-        
+        let url = URL(string: baseURL + components.url!.absoluteString)!
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
         request.setValue(apiKey, forHTTPHeaderField: "x-api-key")
@@ -70,7 +65,7 @@ final class SetlistFmRequest {
                 error == nil
             else {
                 let statusCode = (response as? HTTPURLResponse)?.statusCode
-                let result = Result<T>.failure(.init(code: statusCode ?? 0, message: error?.localizedDescription))
+                let result = Result<T>.failure(.init(code: statusCode ?? -1, message: error?.localizedDescription))
                 completion(result)
                 return
             }
