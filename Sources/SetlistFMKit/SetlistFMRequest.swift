@@ -46,9 +46,9 @@ final class SetlistFMRequest {
             return
         }
         
-        components.queryItems = model.queryParameters.flatMap { parameters in
-            parameters.keys.map { URLQueryItem(name: $0, value: parameters[$0]) }
-        }
+        components.queryItems = model.queryParameters?
+            .filter { $0.value != "" }
+            .map { URLQueryItem(name: $0.key, value: $0.value)}
         
         // web services need the "+" symbol escaped even though it is a valid query parameter character
         components.percentEncodedQuery = components.percentEncodedQuery?.replacingOccurrences(of: "+", with: "%2B")
