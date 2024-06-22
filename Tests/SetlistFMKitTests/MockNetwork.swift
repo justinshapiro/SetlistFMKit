@@ -21,21 +21,34 @@ final class MockNetwork: URLSessionProtocol {
     }
     
     func dataTask(with url: URLRequest, completionHandler: @escaping (Data?, URLResponse?, Error?) -> ()) -> URLSessionDataTaskProtocol {
+        let (data, response, error) = mockResponse(for: url)
+        completionHandler(data, response, error)
+        return MockDataTask()
+    }
+    
+    func data(for request: URLRequest) async throws -> (Data, URLResponse) {
+        let (data, response, _) = mockResponse(for: request)
+        
+        if let data, let response {
+            return (data, response)
+        } else {
+            throw NSError(domain: "", code: response!.statusCode, userInfo: nil)
+        }
+    }
+    
+    private func mockResponse(for urlRequest: URLRequest) -> (Data?, HTTPURLResponse?, Error?) {
         guard let mockFile = mockFilename,
               let path = Bundle.module.path(forResource: mockFile, ofType: "json"),
-            let requestUrl = url.url,
-            let data = try? Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe) else {
-                let response = HTTPURLResponse(url: URL(string: "http://www.setlist.fm")!, statusCode: 500, httpVersion: nil, headerFields: nil)
-                
-                let error = NSError(domain: "", code: response!.statusCode, userInfo: nil)
-                completionHandler(nil, response, error as Error)
-                return MockDataTask()
+              let requestUrl = urlRequest.url,
+              let data = try? Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe) 
+        else {
+            let response = HTTPURLResponse(url: URL(string: "http://www.setlist.fm")!, statusCode: 500, httpVersion: nil, headerFields: nil)
+            let error = NSError(domain: "", code: response!.statusCode, userInfo: nil)
+            return (nil, response, error as Error)
         }
         
         let response = HTTPURLResponse(url: requestUrl, statusCode: 200, httpVersion: nil, headerFields: nil)
-        completionHandler(data, response, nil)
-        
-        return MockDataTask()
+        return (data, response, nil)
     }
 }
 

@@ -30,6 +30,24 @@ final class URLSessionProtocolTests: XCTestCase {
             
             return TestNetworkDataTask()
         }
+        
+        func data(for request: URLRequest) async throws -> (Data, URLResponse) {
+            // simulate network latency
+            if #available(iOS 13, *) {
+                try await Task.sleep(nanoseconds: 1_700_000_000)
+            } else {
+                sleep(1)
+            }
+            
+            let data = "Hello World!".data(using: .utf8)
+            let response = HTTPURLResponse(url: request.url!, statusCode: 200, httpVersion: nil, headerFields: nil)
+            
+            if let data, let response {
+                return (data, response)
+            } else {
+                throw NSError(domain: "", code: response!.statusCode, userInfo: nil)
+            }
+        }
     }
     
     private final class TestNetworkDataTask: URLSessionDataTaskProtocol {

@@ -41,9 +41,40 @@ final class SetlistFMRequest {
     /// - Parameter model: A model that contains the desired endpoint address and parameters
     /// - Parameter completion: The callback which contains the requested result
     func request<T: Decodable>(_ model: SetlistFMRequestModel, _ completion: @escaping (Result<T, FMError>) -> ()) {
+        guard let request = urlRequest(for: model) else {
+            return completion(.failure(.init(code: 0, message: "Provided endpoint is not valid")))
+        }
+        
+        let task = session.dataTask(with: request) { data, response, error in
+            let result: Result<T, FMError> = self.parseResponse(data: data, response: response, error: error)
+            completion(result)
+        }
+        
+        task.resume()
+    }
+    
+    /// Executes an HTTP request using an endpoint and parameters defined in a SetlistFMRequestModel
+    /// - Parameter model: A model that contains the desired endpoint address and parameters
+    /// - returns: The requested result
+    @available(macOS 12.0, iOS 15.0, watchOS 8.0, tvOS 15.0, *)
+    func request<T: Decodable>(_ model: SetlistFMRequestModel) async -> Result<T, FMError> {
+        guard let request = urlRequest(for: model) else {
+            return .failure(.init(code: 0, message: "Provided endpoint is not valid"))
+        }
+        
+        do {
+            let (data, response) = try await session.data(for: request)
+            let result: Result<T, FMError> = parseResponse(data: data, response: response, error: nil)
+            return result
+        } catch {
+            let nsError = (error as NSError)
+            return .failure(.init(code: nsError.code, message: nsError.localizedDescription))
+        }
+    }
+    
+    private func urlRequest(for model: SetlistFMRequestModel) -> URLRequest? {
         guard var components = URLComponents(string: model.endpoint) else {
-            completion(.failure(.init(code: 0, message: "Provided endpoint is not valid")))
-            return
+            return nil
         }
         
         components.queryItems = model.queryParameters?
@@ -54,33 +85,32 @@ final class SetlistFMRequest {
         components.percentEncodedQuery = components.percentEncodedQuery?.replacingOccurrences(of: "+", with: "%2B")
         
         let url = URL(string: baseURL + components.url!.absoluteString)!
+        
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
         request.setValue(apiKey, forHTTPHeaderField: "x-api-key")
         request.setValue("application/json", forHTTPHeaderField: "Accept")
         request.setValue(language.rawValue, forHTTPHeaderField: "Accept-Language")
-        
-        let task = session.dataTask(with: request) { data, response, error in
-            guard let data = data,
-                let requestResponse = response as? HTTPURLResponse,
-                (200 ..< 300) ~= requestResponse.statusCode,
-                error == nil
-            else {
-                let statusCode = (response as? HTTPURLResponse)?.statusCode
-                let result = Result<T, FMError>.failure(.init(code: statusCode ?? -1, message: error?.localizedDescription))
-                completion(result)
-                return
-            }
-            
-            do {
-                let data = try JSONDecoder().decode(T.self, from: data)
-                completion(Result<T, FMError>.success(data))
-            } catch(let error) {
-                let result = Result<T, FMError>.failure(.init(code: requestResponse.statusCode, message: error.localizedDescription))
-                completion(result)
-            }
+        return request
+    }
+    
+    private func parseResponse<T: Decodable>(data: Data?, response: URLResponse?, error: Error?) -> Result<T, FMError> {
+        guard let data = data,
+            let requestResponse = response as? HTTPURLResponse,
+            (200 ..< 300) ~= requestResponse.statusCode,
+            error == nil
+        else {
+            let statusCode = (response as? HTTPURLResponse)?.statusCode
+            let result: Result<T, FMError> = .failure(.init(code: statusCode ?? -1, message: error?.localizedDescription))
+            return result
         }
         
-        task.resume()
+        do {
+            let data = try JSONDecoder().decode(T.self, from: data)
+            return .success(data)
+        } catch(let error) {
+            let result: Result<T, FMError> = .failure(.init(code: requestResponse.statusCode, message: error.localizedDescription))
+            return result
+        }
     }
 }
